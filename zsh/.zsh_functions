@@ -4,7 +4,7 @@ function matlab() {
 
 # pushes .zshrc to my Misc git repo
 function zshrcgit() {
-    cd "${HOME}/Documents/Projects/System"
+    cd "${HOME}/Documents/Projects/System/zsh"
     cp "${HOME}/.zshrc" .
     cp "${HOME}/.zsh_aliases" .
     cp "${HOME}/.zsh_functions" . 
