@@ -14,3 +14,5 @@ echo "This should not list the system ruby in /usr/bin/. If it does, check that 
 echo $(where gem)
 echo $(where ruby) 
 
+# install iStats, but not default packages. Check if there is a better way to do this
+gem install iStats
