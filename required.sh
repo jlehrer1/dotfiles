@@ -9,4 +9,8 @@ xargs brew install < brew_packages.txt
 rbenv install 2.7.1
 rbenv global 2.7.1
 
+# should be in ~/../.shims/2.7.1 and NOT system
+echo "This should not list the system ruby in /usr/bin/. If it does, check that rbenv is installed correctly and run rbenv global 2.7.1"
+echo $(where gem)
+echo $(where ruby) 
 
