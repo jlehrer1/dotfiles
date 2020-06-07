@@ -18,6 +18,7 @@ alias p="ipython"
 alias el="conda env list"
 alias ca="conda activate"
 alias cc="conda create"
+alias cda="conda deactivate"
 
 # aliases for git
 alias gs="git status"

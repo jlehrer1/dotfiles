@@ -135,6 +135,6 @@ export LESS_TERMCAP_us=$'\e[1;4;31m'
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-# for python linter
+# for python linter. This is not the best place to install it -- consider changing
 export PATH=/Users/julianlehrer/Library/Python/3.7/bin:$PATH
 
