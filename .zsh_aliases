@@ -3,6 +3,7 @@ alias python="python3"
 #aliases for zsh
 alias zshaliases="vim ~/.zsh_aliases"
 alias zshsource="source ~/.zshrc"
+alias zshconfig="vim ~/.zshrc"
 
 # convienence aliases -- makes workflow faster
 alias jn="jupyter notebook"

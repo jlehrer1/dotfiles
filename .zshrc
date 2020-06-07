@@ -8,6 +8,7 @@ export ZSH="/Users/julianlehrer/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+# nice themes: {af-magic, wezm+}
 ZSH_THEME="af-magic"
 
 # Set list of themes to pick from when loading at random
@@ -100,29 +101,8 @@ source $ZSH/oh-my-zsh.sh
 
 ZSH_DISABLE_COMPFIX=true
 
-alias zshconfig="vim ~/.zshrc"
-
-function matlab() {
-    open -a "Matlab" "$@"
-}
-
-# pushes .zshrc to my Misc git repo
-function zshrcgit() {
-    cd "${HOME}/Documents/Projects/Misc"
-    cp "${HOME}/.zshrc" .
-    cp "${HOME}/.zsh_aliases" .
-    git add .zshrc
-    git add .zsh_aliases
-    if [ -z "$1" ]; then
-        git commit 
-    else
-        git commit -m "$1"
-    fi
-    git push
-    cd "$OLDPWD"
-}
-
 source ~/.zsh_aliases
+source ~/.zsh_functions
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
