@@ -11,6 +11,7 @@ alias e="open -e"
 alias treetxt="tree > tree.txt"
 alias README="code README.md"
 alias p="ipython"
+alias proj="cd ~/Documents/Projects"
 
 # aliases for conda 
 alias el="conda env list"
