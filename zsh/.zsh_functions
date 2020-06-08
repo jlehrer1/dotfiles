@@ -25,6 +25,7 @@ function copy() {
 	echo $out | pbcopy
 }
 
-function testcopy() {
-	"$@" | pbcopy
+function bttmonitor() {
+	n=$(top -l 1 | grep BetterTouch | cut -d' ' -f1 | awk '{print "-pid"} $0' | xargs)
+	eval "top $n"
 }
