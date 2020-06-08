@@ -138,3 +138,5 @@ eval "$(rbenv init -)"
 # for python linter. This is not the best place to install it -- consider changing
 export PATH=/Users/julianlehrer/Library/Python/3.7/bin:$PATH
 
+# for dependency related to imagemagick
+export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"

@@ -20,3 +20,11 @@ function zshrcgit() {
     cd "$OLDPWD"
 }
 
+function copy() {
+	out=$($1)
+	echo $out | pbcopy
+}
+
+function testcopy() {
+	"$@" | pbcopy
+}
