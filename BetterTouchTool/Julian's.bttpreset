@@ -191,7 +191,7 @@
     "BSTSnapAreaDefaultShowPictogram" : false,
     "BSTSnapAreaDefaultPictoDistanceFromBottom" : 0.10000000149011612
   },
-  "BTTPresetUUID" : "E64D4820-D0CC-48A7-87BB-C2EFF5A134A0",
+  "BTTPresetUUID" : "217DC576-4AE6-4315-B5B8-A6F6D5F25F8D",
   "BTTPresetContent" : [
     {
       "BTTActivationGroupName" : "Home Strip [Pause]",
@@ -274,8 +274,8 @@
           "BTTDisplayOrder" : 1,
           "BTTMergeIntoTouchBarGroups" : 0,
           "BTTTriggerConfig" : {
-            "BTTTouchBarFreeSpaceAfterButton" : 5,
-            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarHideWhenNoPlayer" : false,
+            "BTTTouchBarOnlyShowIcon" : false,
             "BTTTouchBarBringPlayerToFront" : 0,
             "BTTTouchBarButtonColor" : "0.000000, 0.000000, 0.000000, 255.000000",
             "BTTTouchBarItemPlacement" : 0,
@@ -294,10 +294,10 @@
             "BTTTouchBarLine1Format" : "{title}",
             "BTTTouchBarButtonFontSize" : 14,
             "BTTTouchBarIconTextOffset" : 5,
-            "BTTTouchBarLine1MaxChars" : 44,
+            "BTTTouchBarLine1MaxChars" : 43,
             "BTTTouchBarHideCover" : 1,
-            "BTTTouchBarHideWhenNoPlayer" : false,
-            "BTTTouchBarOnlyShowIcon" : false
+            "BTTTouchBarFreeSpaceAfterButton" : 5,
+            "BTTTouchBarItemPadding" : 0
           }
         },
         {
