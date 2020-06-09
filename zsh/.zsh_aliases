@@ -28,6 +28,8 @@ alias gitignore="vim .gitignore"
 # aliases for shell commands
 alias restart="exec zsh"
 alias vimrc="vim ~/.vimrc"
+alias ls="exa"
 
 # aliases for system stats
 alias ram="top -l 1 -s 0 | grep PhysMem"
+
