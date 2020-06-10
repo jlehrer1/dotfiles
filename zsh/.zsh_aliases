@@ -10,7 +10,7 @@ alias c="clear"
 alias e="open -e"
 alias treetxt="tree > tree.txt"
 alias README="code README.md"
-alias p="ipython"
+alias ip="ipython"
 alias proj="cd ~/Documents/Projects"
 alias desk="cd ~/Desktop"
 alias down="cd ~/Downloads"
@@ -28,6 +28,7 @@ alias gitignore="vim .gitignore"
 # aliases for shell commands
 alias restart="exec zsh"
 alias vimrc="vim ~/.vimrc"
+alias vimrcsource="source ~/.vimrc"
 alias ls="exa"
 
 # aliases for system stats

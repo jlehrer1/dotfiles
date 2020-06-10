@@ -119,7 +119,7 @@ fi
 unset __conda_setup
 # <<< conda initialize <<
 
-fpath+=~/Documents/conda-zsh-completion
+fpath+=/Users/julianlehrer/opt
 compinit
 
 # colors for manpages
@@ -140,3 +140,9 @@ export PATH=/Users/julianlehrer/Library/Python/3.7/bin:$PATH
 
 # for dependency related to imagemagick
 export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
+
+# fzf color theme
+export FZF_DEFAULT_OPTS='
+	--color fg:242,bg:233,hl:65,fg+:15,bg+:234,hl+:108
+	--color info:108,prompt:109,spinner:108,pointer:168,marker:168
+'
