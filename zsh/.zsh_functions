@@ -21,8 +21,8 @@ function zshrcgit() {
     cd "$OLDPWD"
 }
 
-function zshrcgitdiff() {
-    cd "${HOME}/Documents/Projects/System/"
+function zshrcdiff() {
+    cd "${HOME}/Documents/Projects/System/zsh"
     git diff HEAD
     cd "$OLDPWD"
 }
