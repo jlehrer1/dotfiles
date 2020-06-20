@@ -1,3 +1,4 @@
+# opening apps like `code` command
 function matlab() {
     open -a "Matlab" "$@"
 }
@@ -20,6 +21,13 @@ function zshrcgit() {
     cd "$OLDPWD"
 }
 
+function zshrcgitdiff() {
+    cd "${HOME}/Documents/Projects/System/"
+    git diff HEAD
+    cd "$OLDPWD"
+}
+
+# Misc
 function copy() {
 	out=$($1)
 	echo $out | pbcopy
