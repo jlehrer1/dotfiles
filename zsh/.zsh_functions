@@ -8,10 +8,12 @@ function zshrcgit() {
     cd "${HOME}/Documents/Projects/System/zsh"
     cp "${HOME}/.zshrc" .
     cp "${HOME}/.zsh_aliases" .
-    cp "${HOME}/.zsh_functions" . 
+    cp "${HOME}/.zsh_functions" .
+	cp "${HOME}/.vimrc" .
     git add .zshrc
     git add .zsh_aliases
     git add .zsh_functions
+	git add .vimrc
     if [ -z "$1" ]; then
         git commit 
     else
@@ -21,11 +23,11 @@ function zshrcgit() {
     cd "$OLDPWD"
 }
 
-function zshrcdiff() {
-    cd "${HOME}/Documents/Projects/System/zsh"
-    git diff HEAD
-    cd "$OLDPWD"
-}
+#function zshrcdiff() {
+#    cd "${HOME}/Documents/Projects/System/zsh"
+#    git diff HEAD
+#    cd "$OLDPWD"
+#}
 
 # Misc
 function copy() {
