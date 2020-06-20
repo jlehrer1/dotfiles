@@ -13,7 +13,7 @@ function zshrcgit() {
     git add .zshrc
     git add .zsh_aliases
     git add .zsh_functions
-	git add .vimrc
+	git add *
     if [ -z "$1" ]; then
         git commit 
     else
