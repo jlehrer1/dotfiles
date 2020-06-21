@@ -30,6 +30,7 @@ alias restart="exec zsh"
 alias vimrc="vim ~/.vimrc"
 alias vimrcsource="source ~/.vimrc"
 alias ls="exa"
+alias sl="ls"
 
 # aliases for system stats
 alias ram="top -l 1 -s 0 | grep PhysMem"
