@@ -10,10 +10,7 @@ function zshrcgit() {
     cp "${HOME}/.zsh_aliases" .
     cp "${HOME}/.zsh_functions" .
 	cp "${HOME}/.vimrc" .
-    #git add .zshrc
-    #git add .zsh_aliases
-    #git add .zsh_functions
-	#git add .vimrc
+	cp "${HOME}"/opt" .
 	git add -A
     if [ -z "$1" ]; then
         git commit 
