@@ -28,16 +28,27 @@ function zshrcgit() {
 #}
 
 # Misc
+# --------------------------
+
+# might break, copies command output to clipboard
 function copy() {
 	out=$($1)
 	echo $out | pbcopy
 }
 
+# For monitoring BTT's stats usage
 function bttmonitor() {
 	n=$(top -l 1 | grep BetterTouch | cut -d' ' -f1 | awk '{print "-pid"} $0' | xargs)
 	eval "top $n"
 }
 
+# Checks if CPU has ever been throttled
 function throttleinfo() {
 	gtimeout .01s pmset -g thermlog
+}
+
+# searches recursively in my zsh folder for the given string,
+# useful for finding aliases
+function zshsearch() {
+	grep -r "$@" ~/.oh-my-zsh
 }
