@@ -63,6 +63,5 @@ function safari() {
 		done
 		partial_query_string=${partial_query_string:1} #useful for delete the first "+" 
 		complete_query_string=$complete_query_string$partial_query_string
-		echo "[++++++++++++ You are opening Safari with a personalized query... goodbye! ++++++++++++]"
 		open -a Safari $complete_query_string
 }
