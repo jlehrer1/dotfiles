@@ -52,3 +52,17 @@ function throttleinfo() {
 function zshsearch() {
 	grep -r "$@" ~/.oh-my-zsh
 }
+
+# searches safari for the given string
+#  todo: Go directly to website if typed in correctly
+function safari() {
+		complete_query_string="https://www.google.com/search?q=" #format: https://www.google.com/search?q=something+to+search+on+Google
+		partial_query_string=""
+		for i in $@; do
+			partial_query_string=$partial_query_string+$i
+		done
+		partial_query_string=${partial_query_string:1} #useful for delete the first "+" 
+		complete_query_string=$complete_query_string$partial_query_string
+		echo "[++++++++++++ You are opening Safari with a personalized query... goodbye! ++++++++++++]"
+		open -a Safari $complete_query_string
+}
