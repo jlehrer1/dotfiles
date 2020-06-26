@@ -65,3 +65,7 @@ function safari() {
 		complete_query_string=$complete_query_string$partial_query_string
 		open -a Safari $complete_query_string
 }
+
+function reddit() {
+	open -a Safari "https://www.reddit.com"
+}

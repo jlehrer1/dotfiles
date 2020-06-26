@@ -165,3 +165,4 @@ eval
                 test -n "$TF_CMD" && print -s $TF_CMD
             }
         
+alias google=safari
