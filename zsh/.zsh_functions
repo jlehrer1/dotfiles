@@ -82,4 +82,6 @@ function matlab() {
     open -a "Matlab" "$@"
 }
 
-# -----------------------------------
+# ----------------------------------
+# control brightenss (TODO)
+# brightness -l | grep brightness | rev | awk '{print $1;}' | rev <--- use to get just the current brightness-

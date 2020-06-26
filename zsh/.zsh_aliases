@@ -15,9 +15,12 @@ alias e="open -e"
 alias treetxt="tree > tree.txt"
 alias README="code README.md"
 alias ip="ipython"
+
+# aliases for moving around file system
 alias proj="cd ~/Documents/Projects"
 alias desk="cd ~/Desktop"
 alias down="cd ~/Downloads"
+alias sys="cd ~/Documents/Projects/System/zsh"
 
 # aliases for conda 
 alias el="conda env list"
