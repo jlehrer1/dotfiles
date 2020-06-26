@@ -45,4 +45,3 @@ alias ram="top -l 1 -s 0 | grep PhysMem"
 # alias since I'm lazy
 alias google="safari"
 alias fix="fuck"
-
