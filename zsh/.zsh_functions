@@ -1,8 +1,7 @@
-# opening apps like `code` command
-function matlab() {
-    open -a "Matlab" "$@"
-}
+# Yeah, just little functions I write. Mostly to practice writing bash scripts.
+# I find them helpful. Maybe you will too!
 
+# -------------------------------------
 # pushes .zshrc to my Misc git repo
 function zshrcgit() {
     cd "${HOME}/Documents/Projects/System/zsh"
@@ -56,16 +55,40 @@ function zshsearch() {
 # searches safari for the given string
 #  todo: Go directly to website if typed in correctly
 function safari() {
-		complete_query_string="https://www.google.com/search?q=" #format: https://www.google.com/search?q=something+to+search+on+Google
-		partial_query_string=""
-		for i in $@; do
-			partial_query_string=$partial_query_string+$i
-		done
-		partial_query_string=${partial_query_string:1} #useful for delete the first "+" 
-		complete_query_string=$complete_query_string$partial_query_string
-		open -a Safari $complete_query_string
+		fin=$(echo $@ | rev | cut -c 1-4 | rev)
+#		if [[ $fin == ".com" ]]; then
+#			open -a Safari "https://www.${@}"
+		if [[ $@ == *".com"* ]]; then
+			echo "should be here"
+			open -a Safari "https://www.${@}"
+		else
+			complete_query_string="https://www.google.com/search?q=" #format: https://www.google.com/search?q=something+to+search+on+Google
+			partial_query_string=""
+			for i in $@; do
+				partial_query_string=$partial_query_string+$i
+			done
+			partial_query_string=${partial_query_string:1} #useful for delete the first "+" 
+			complete_query_string=$complete_query_string$partial_query_string
+			open -a Safari $complete_query_string
+		fi
 }
 
+# more efficient procrastinating lol
+# ---------------------------------
 function reddit() {
 	open -a Safari "https://www.reddit.com"
 }
+
+function facebook() {
+	open -a Safari "https://www.facebook.com"
+}
+
+function nyt() {
+	open -a Safari "https://www.nytimes.com"
+}
+
+function matlab() {
+    open -a "Matlab" "$@"
+}
+
+# -----------------------------------

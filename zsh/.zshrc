@@ -165,4 +165,5 @@ eval
                 test -n "$TF_CMD" && print -s $TF_CMD
             }
         
-alias google=safari
+#use this for the conditional 
+# echo github.com | rev | cut -c 1-4 | rev
