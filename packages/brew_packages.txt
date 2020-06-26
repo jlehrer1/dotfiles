@@ -70,3 +70,16 @@ x265
 xdotool
 xmlto
 xz
+brightness
+byobu
+cask
+exa
+fzf
+lynx
+neofetch
+python
+rbenv
+teamookla/speedtest/speedtest
+tcl-tk
+thefuck
+tree
