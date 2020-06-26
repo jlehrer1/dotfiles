@@ -66,21 +66,21 @@ function safari() {
 
 # more efficient procrastinating lol
 # ---------------------------------
-function reddit() {
-	open -a Safari "https://www.reddit.com"
-}
 
-function facebook() {
-	open -a Safari "https://www.facebook.com"
-}
+# TODO make some of these aliases...
+function reddit() {	open -a Safari "https://www.reddit.com" }
 
-function nyt() {
-	open -a Safari "https://www.nytimes.com"
-}
+function facebook() { open -a Safari "https://www.facebook.com" }
 
-function matlab() {
-    open -a "Matlab" "$@"
-}
+function nyt() { open -a Safari "https://www.nytimes.com" }
+
+function matlab() { open -a "Matlab" "$@" }
+
+function slack() { open -a Slack } 
+
+function discord() { open -a Discord }
+
+function minecraft() { open -a Minecraft } 
 
 # ----------------------------------
 # control brightenss (TODO)
