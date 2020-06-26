@@ -147,6 +147,7 @@ export FZF_DEFAULT_OPTS='
 	--color fg:242,bg:233,hl:65,fg+:15,bg+:234,hl+:108
 	--color info:108,prompt:109,spinner:108,pointer:168,marker:168
 '
+# for fuck library
 eval 
             fuck () {
                 TF_PYTHONIOENCODING=$PYTHONIOENCODING;
@@ -165,5 +166,3 @@ eval
                 test -n "$TF_CMD" && print -s $TF_CMD
             }
         
-#use this for the conditional 
-# echo github.com | rev | cut -c 1-4 | rev

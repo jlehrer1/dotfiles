@@ -20,15 +20,6 @@ function zshrcgit() {
     cd "$OLDPWD"
 }
 
-#function zshrcdiff() {
-#    cd "${HOME}/Documents/Projects/System/zsh"
-#    git diff HEAD
-#    cd "$OLDPWD"
-#}
-
-# Misc
-# --------------------------
-
 # might break, copies command output to clipboard
 function copy() {
 	out=$($1)

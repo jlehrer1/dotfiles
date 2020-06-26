@@ -1,3 +1,7 @@
+#aliases for python -- be careful here!
+alias python="python3" #this is using the python installed by brew (on my temporary Air). In the future, it should probably be using my conda env
+alias pip="pip3"
+
 #aliases for zsh
 alias zshaliases="vim ~/.zsh_aliases"
 alias zshsource="source ~/.zshrc"
@@ -25,7 +29,7 @@ alias cda="conda deactivate"
 alias gs="git status"
 alias gitignore="vim .gitignore"
 
-# aliases for shell commands
+# aliases for common shell commands
 alias restart="exec zsh"
 alias vimrc="vim ~/.vimrc"
 alias vimrcsource="source ~/.vimrc"
@@ -37,3 +41,5 @@ alias ram="top -l 1 -s 0 | grep PhysMem"
 
 # alias since I'm lazy
 alias google="safari"
+alias fix="fuck"
+
