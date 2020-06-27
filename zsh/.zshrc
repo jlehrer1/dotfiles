@@ -173,5 +173,5 @@ eval
                 test -n "$TF_CMD" && print -s $TF_CMD
             }
 
-autoload $HOME/.zsh_functions/*
+autoload ${HOME}/.zsh_functions/*
 source $HOME/.zsh_aliases      

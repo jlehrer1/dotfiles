@@ -15,7 +15,7 @@ alias pip="pip3"
 alias zshaliases="vim ~/.zsh_aliases"
 alias zshsource="source ~/.zshrc"
 alias zshconfig="vim ~/.zshrc"
-alias zshfunctions="vim ~/.zsh_functions"
+#alias zshfunctions="vim ~/.zsh_functions"
 
 # convienence aliases -- makes workflow faster
 alias jn="jupyter notebook"
@@ -30,6 +30,7 @@ alias proj="cd ~/Documents/Projects"
 alias desk="cd ~/Desktop"
 alias down="cd ~/Downloads"
 alias sys="cd ~/Documents/Projects/System/"
+alias fnc="cd ~/.zsh_functions"
 
 # aliases for conda 
 alias el="conda env list"

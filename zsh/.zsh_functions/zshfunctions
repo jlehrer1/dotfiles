@@ -1,0 +1,10 @@
+# TODO: fix this, it doesn't work the first time it is run
+functions zshfunctions() {
+	if [[ $1 == "-n" ]]; then
+		echo "hit if"
+		vim ~/.zsh_functions/$2		
+	else
+		echo "hit else"
+		vim ~/.zsh_functions
+	fi
+}
