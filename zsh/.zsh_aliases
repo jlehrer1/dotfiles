@@ -47,6 +47,7 @@ alias vimrc="vim ~/.vimrc"
 alias vimrcsource="source ~/.vimrc"
 alias ls="exa"
 alias sl="ls"
+alias lh="ls -ld .?*" # show only hidden files
 
 # aliases for system stats
 alias ram="top -l 1 -s 0 | grep PhysMem"
@@ -54,3 +55,4 @@ alias ram="top -l 1 -s 0 | grep PhysMem"
 # alias since I'm lazy
 alias google="safari"
 alias fix="fuck"
+alias dots="sys"
