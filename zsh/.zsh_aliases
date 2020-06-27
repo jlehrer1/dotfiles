@@ -59,3 +59,6 @@ alias fix="fuck"
 alias dots="sys"
 
 alias ideas="vim ~/.zsh_functions/.project_ideas.txt"
+
+# useless
+alias asdf="echo "asdf""
