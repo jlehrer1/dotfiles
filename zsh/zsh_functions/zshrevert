@@ -1,0 +1,9 @@
+zshrevert() {
+	cd "${HOME}/Documents/Projects/System/zsh"
+	cp .zshrc ~
+	cp .zsh_functions ~
+	cp .zsh_aliases ~
+	
+	echo "Reverting .zsh things to HEAD..."
+}
+

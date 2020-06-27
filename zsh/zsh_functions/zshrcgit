@@ -3,7 +3,7 @@ function zshrcgit() {
     cd "${HOME}/Documents/Projects/System/zsh"
     cp "${HOME}/.zshrc" .
     cp "${HOME}/.zsh_aliases" .
-	ditto "${HOME}/.zsh_functions" . 
+	cp -R "${HOME}/.zsh_functions" ./zsh_functions 
 	cp "${HOME}/.vimrc" .
 	git add -A
     if [ -z "$1" ]; then
