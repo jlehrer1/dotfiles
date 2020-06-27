@@ -1,2 +1,0 @@
-function nyt() { open -a Safari "https://www.nytimes.com" }
-

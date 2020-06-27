@@ -1,7 +1,0 @@
-# appends brew packages that are installed but not on the brew_packages.txt list 
-# DOESN'T WORK
-function brewsave() {
-	diff=$(diff <(cat ~/Documents/Projects/System/packages/brew_packages.txt | sort) <(brew leaves | sort) | sed -n -e '/>/p' | awk '{print $2}')
-	echo "$diff" >> ~/Documents/Projects/System/packages/brew_packages.txt
-}
-

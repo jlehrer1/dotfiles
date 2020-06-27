@@ -1,6 +1,0 @@
-# se for "sEarch Shallow"
-# fzf only current folder
-function se() {
-	command ls -lah | fzf 
-}
-

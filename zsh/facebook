@@ -1,2 +1,0 @@
-function facebook() { open -a Safari "https://www.facebook.com" }
-

@@ -1,2 +1,0 @@
-function slack() { open -a Slack } 
-
