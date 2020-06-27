@@ -1,3 +1,11 @@
+##################################################
+#    ___    __    ____   ___    ____   ____   ____
+#   / _ |  / /   /  _/  / _ |  / __/  / __/  / __/
+#  / __ | / /__ _/ /   / __ | _\ \   / _/   _\ \  
+# /_/ |_|/____//___/  /_/ |_|/___/  /___/  /___/  
+#                                                 
+##################################################
+
 #aliases for python -- be careful here!
 alias python="python3" #this is using the python installed by brew (on my temporary Air). In the future, it should probably be using my conda env
 alias pip="pip3"

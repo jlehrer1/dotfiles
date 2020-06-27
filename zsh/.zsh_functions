@@ -72,10 +72,6 @@ function safari() {
 		fi
 }
 
-function repotest() {
-	base_url = $(git config --get remote.origin.url)
-}
-
 function repo() {
 	# Figure out github repo base URL
 	local base_url
@@ -127,8 +123,15 @@ function repo() {
 }
 
 # fzf only current folder
+# se means "search"
 function se() {
 	command ls -lah | fzf
+}
+
+# sd means "search deep"
+# i.e. fzf looks for hidden files
+function sd {	
+	find . | fzf
 }
 
 # shows currently installed packages that are not saved to brew_packages.txt
@@ -137,6 +140,7 @@ function brewdiff() {
 }
 
 # appends brew packages that are installed but not on the brew_packages.txt list 
+# DOESN'T WORK
 function brewsave() {
 	diff=$(diff <(cat ~/Documents/Projects/System/packages/brew_packages.txt | sort) <(brew leaves | sort) | sed -n -e '/>/p' | awk '{print $2}')
 	echo "$diff" >> ~/Documents/Projects/System/packages/brew_packages.txt
@@ -159,7 +163,5 @@ function discord() { open -a Discord }
 function minecraft() { open -a Minecraft } 
 
 function pref() { open -a "System Preferences" }
-# ----------------------------------
-# control brightness (TODO)
-# brightness -l | grep brightness | rev | awk '{print $1;}' | rev <--- use to get just the current brightness-
+
 
