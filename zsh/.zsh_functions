@@ -1,7 +1,18 @@
+
+  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+#     ______                     __   _                    	  #
+#    / ____/__  __ ____   _____ / /_ (_)____   ____   _____	  #
+#   / /_   / / / // __ \ / ___// __// // __ \ / __ \ / ___/	  #
+#  / __/  / /_/ // / / // /__ / /_ / // /_/ // / / /(__  ) 	  #
+# /_/     \__,_//_/ /_/ \___/ \__//_/ \____//_/ /_//____/  	  #
+#                                                         	  #
+  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
 # Yeah, just little functions I write. Mostly to practice writing bash scripts.
 # I find them helpful. Maybe you will too!
+# TODO: Move these into their own files, if that is good practice. I'm not sure. Google it. 
 
-# -------------------------------------
+# -------------------------------------------------------------
 # pushes .zshrc to my Misc git repo
 function zshrcgit() {
     cd "${HOME}/Documents/Projects/System/zsh"
