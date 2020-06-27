@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # opens facebook
 function facebook() { open -a Safari "https://www.facebook.com" }
 

@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # opens the New York Times homepage
 function nyt() { open -a Safari "https://www.nytimes.com" }
 

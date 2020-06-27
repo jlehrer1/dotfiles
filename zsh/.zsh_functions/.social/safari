@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # searches safari for the given string
 # only works with .com, maybe make a more general check, i.e. one word and contains a .
 function safari() {
