@@ -1,0 +1,5 @@
+function copy() {
+	out=$($1)
+	echo $out | pbcopy
+}
+

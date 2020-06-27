@@ -1,0 +1,6 @@
+# sd means "Search Deep"
+# i.e. fzf looks for hidden files
+function sd {	
+	find . | fzf | pbcopy
+}
+

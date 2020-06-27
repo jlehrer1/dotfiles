@@ -1,0 +1,2 @@
+function matlab() { open -a "Matlab" "$@" }
+
