@@ -5,14 +5,17 @@ function zshrcgit() {
     cd "${HOME}/Documents/Projects/System/zsh"
     cp "${HOME}/.zshrc" .
     cp "${HOME}/.zsh_aliases" .
-	ditto "${HOME}/.zsh_functions" ./.zsh_functions 
+	cp "${HOME}/.zshenv" .	
+	ditto "${HOME}/.zsh_functions/" .
 	cp "${HOME}/.vimrc" .
+	
 	git add -A
     if [ -z "$1" ]; then
         git commit 
     else
         git commit -m "$1"
     fi
+
     git push
     cd "$OLDPWD"
 }
