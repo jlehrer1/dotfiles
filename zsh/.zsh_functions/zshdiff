@@ -6,7 +6,8 @@ function zshdiff() {
 	ditto "${HOME}/.zsh_functions" ./.zsh_functions	
 	cp "${HOME}/.zshrc" .
 	cp "${HOME}/.zsh_aliases" .
+	git add -A
 	git diff HEAD
-	git reset --hard HEAD
+	git reset --hard HEAD >/dev/null 2>&1
 	cd $OLDPWD	
 }
