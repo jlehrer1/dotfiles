@@ -72,7 +72,11 @@ function safari() {
 		fi
 }
 
-repo() {
+function repotest() {
+	base_url = $(git config --get remote.origin.url)
+}
+
+function repo() {
 	# Figure out github repo base URL
 	local base_url
 	base_url=$(git config --get remote.origin.url)
@@ -120,6 +124,22 @@ repo() {
 	echo "Calling $(type open) for $url"
 
 	open "$url" &> /dev/null || (echo "Using $(type open) to open URL failed." && exit 1);
+}
+
+# fzf only current folder
+function se() {
+	command ls -lah | fzf
+}
+
+# shows currently installed packages that are not saved to brew_packages.txt
+function brewdiff() {
+	diff <(cat ~/Documents/Projects/System/packages/brew_packages.txt) <(brew leaves) | sed -n -e '/>/p' | awk '{print $2}'
+}
+
+# appends brew packages that are installed but not on the brew_packages.txt list 
+function brewsave() {
+	diff=$(diff <(cat ~/Documents/Projects/System/packages/brew_packages.txt | sort) <(brew leaves | sort) | sed -n -e '/>/p' | awk '{print $2}')
+	echo "$diff" >> ~/Documents/Projects/System/packages/brew_packages.txt
 }
 
 # more efficient procrastinating lol

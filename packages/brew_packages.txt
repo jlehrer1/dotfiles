@@ -60,7 +60,6 @@ screenresolution
 shared-mime-info
 sqlite
 tmux
-tree
 unbound
 unibilium
 utf8proc
@@ -83,3 +82,5 @@ teamookla/speedtest/speedtest
 tcl-tk
 thefuck
 tree
+tldr
+youtube-dl

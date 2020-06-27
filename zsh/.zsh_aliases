@@ -20,7 +20,7 @@ alias ip="ipython"
 alias proj="cd ~/Documents/Projects"
 alias desk="cd ~/Desktop"
 alias down="cd ~/Downloads"
-alias sys="cd ~/Documents/Projects/System/zsh"
+alias sys="cd ~/Documents/Projects/System/"
 
 # aliases for conda 
 alias el="conda env list"
