@@ -1,2 +1,3 @@
+# opens discord
 function discord() { open -a Discord }
 

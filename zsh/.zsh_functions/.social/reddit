@@ -1,2 +1,3 @@
+# Opens reddit. TODO: add specific subreddit flag
 function reddit() {	open -a Safari "https://www.reddit.com" }
 

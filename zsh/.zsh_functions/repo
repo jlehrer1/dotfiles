@@ -9,6 +9,11 @@ function repo() {
 		return 1
 	fi
 
+	if [[ $1 == '-mm' ]]; then
+		open "https://github.com/jlehrer1"
+		return 1
+	fi
+
 	# Fix git@github.com: URLs
 	base_url=${base_url//git@github\.com:/https:\/\/github\.com\/}
 
@@ -24,7 +29,6 @@ function repo() {
 	# Validate that this folder is a git folder
 	if ! git branch 2>/dev/null 1>&2 ; then
 		echo "Not a git repo!"
-		exit $?
 	fi
 
 	# Find current directory relative to .git parent
