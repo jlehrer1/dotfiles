@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # Commits and pushes my zsh dotfiles
 function zshrcgit() {
     cd "${HOME}/Documents/Projects/System/zsh"

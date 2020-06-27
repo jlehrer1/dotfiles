@@ -1,2 +1,4 @@
+#!/bin/zsh
+
 function matlab() { open -a "Matlab" "$@" }
 

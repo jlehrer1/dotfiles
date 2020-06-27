@@ -1,7 +1,10 @@
+#!/bin/zsh
+
+# reverts zsh-things to the previous head
 zshrevert() {
 	cd "${HOME}/Documents/Projects/System/zsh"
 	cp .zshrc ~
-	cp .zsh_functions ~
+	cp -R .zsh_functions ~/.zsh_functions
 	cp .zsh_aliases ~
 	
 	echo "Reverting .zsh things to HEAD..."

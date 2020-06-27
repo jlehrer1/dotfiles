@@ -26,3 +26,4 @@ set smarttab
 
 "Show line numbers"
 set number 
+

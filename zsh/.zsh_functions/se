@@ -1,3 +1,5 @@
+#/bin/zsh
+
 # se for "sEarch Shallow"
 # fzf only current folder
 function se() {

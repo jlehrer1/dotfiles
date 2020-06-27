@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # appends brew packages that are installed but not on the brew_packages.txt list 
 # DOESN'T WORK
 function brewsave() {

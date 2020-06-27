@@ -1,16 +1,27 @@
+#!/bin/zsh
+
+# opens current git repo in Safari
+# -m opens the base link of the repo
+# -mm opens the homepage to my git account. works while not in repo
 function repo() {
 	# Figure out github repo base URL
 	local base_url
 	base_url=$(git config --get remote.origin.url)
 	base_url=${base_url%\.git} # remove .git from end of string
 
-	if [[ $1 == '-m' ]]; then 
-		open $base_url
+	if [[ $1 == '-mm' ]]; then
+		open "https://github.com/jlehrer1"
+		return 1
+	fi
+	
+	# Validate that this folder is a git folder
+	if ! git branch 2>/dev/null 1>&2 ; then
+		echo "Error: Not a git repository"
 		return 1
 	fi
 
-	if [[ $1 == '-mm' ]]; then
-		open "https://github.com/jlehrer1"
+	if [[ $1 == '-m' ]]; then 
+		open $base_url
 		return 1
 	fi
 
@@ -26,12 +37,6 @@ function repo() {
 	# Fix git@gitlab.com: URLs
 	base_url=${base_url//git@gitlab\.com:/https:\/\/gitlab\.com\/}
 
-	# Validate that this folder is a git folder
-	if ! git branch 2>/dev/null 1>&2 ; then
-		echo "Not a git repo!"
-	fi
-
-	# Find current directory relative to .git parent
 	full_path=$(pwd)
 	git_base_path=$(cd "./$(git rev-parse --show-cdup)" || exit 1; pwd)
 	relative_path=${full_path#$git_base_path} # remove leading git_base_path from working directory
