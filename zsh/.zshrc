@@ -111,9 +111,6 @@ source $ZSH/oh-my-zsh.sh
 
 ZSH_DISABLE_COMPFIX=true
 
-source ~/.zsh_aliases
-source ~/.zsh_functions
-
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('${HOME}/opt/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
@@ -175,4 +172,6 @@ eval
                 export PYTHONIOENCODING=$TF_PYTHONIOENCODING;
                 test -n "$TF_CMD" && print -s $TF_CMD
             }
-        
+
+autoload $HOME/.zsh_functions/*
+source $HOME/.zsh_aliases      
