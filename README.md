@@ -1,4 +1,4 @@
 # System
-Files for my system. Includes things like aliases, custom commands and my BetterTouchTool setup
+Files for my system. I should probably rename this dotfiles. 
 
 Each can be installed with the `install.sh` file. 
