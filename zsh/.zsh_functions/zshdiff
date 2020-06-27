@@ -1,0 +1,12 @@
+#!/bin/zsh
+
+# git diff my current zsh setup with my git repo
+function zshdiff() {
+	cd ~/Documents/Projects/System/zsh
+	ditto "${HOME}/.zsh_functions" ./.zsh_functions	
+	cp "${HOME}/.zshrc" .
+	cp "${HOME}/.zsh_aliases" .
+	git diff HEAD
+	git reset --hard HEAD
+	cd $OLDPWD	
+}

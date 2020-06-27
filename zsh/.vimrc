@@ -28,5 +28,6 @@ set smarttab
 set number 
 
 "Automatically match opening brace and move in between them
-inoremap { {<CR>}<Esc>ko
+"Annoying becaue it does it for all, not just function braces
+"inoremap { {<CR>}<Esc>ko
 
