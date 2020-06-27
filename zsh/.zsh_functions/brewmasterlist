@@ -1,0 +1,3 @@
+function brewmasterlist() {
+	cat ~/Documents/Projects/System/packages/brew_packages.txt
+}

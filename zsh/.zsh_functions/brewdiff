@@ -1,5 +1,5 @@
 # shows currently installed packages that are not saved to brew_packages.txt
 function brewdiff() {
-	diff <(cat ~/Documents/Projects/System/packages/brew_packages.txt) <(brew leaves) | sed -n -e '/>/p' | awk '{print $2}'
+	diff <(cat ~/Documents/Projects/System/packages/brew_packages.txt | sort) <(brew leaves | sort) | grep "^>" | awk '{print $2}'
 }
 

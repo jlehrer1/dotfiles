@@ -84,3 +84,5 @@ thefuck
 tree
 tldr
 youtube-dl
+cjbassi/ytop/ytop
+koekeishiya/formulae/yabai

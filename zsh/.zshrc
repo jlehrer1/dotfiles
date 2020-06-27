@@ -174,4 +174,5 @@ eval
             }
 
 autoload ${HOME}/.zsh_functions/*
+autoload ${HOME}/.zsh_functions/.social/*
 source $HOME/.zsh_aliases      
