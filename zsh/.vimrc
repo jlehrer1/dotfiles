@@ -27,3 +27,6 @@ set smarttab
 "Show line numbers"
 set number 
 
+"Automatically match opening brace and move in between them
+inoremap { {<CR>}<Esc>ko
+

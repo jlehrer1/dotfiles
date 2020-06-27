@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+function gmail() {
+	open -a Safari "https://mail.google.com"
+}
