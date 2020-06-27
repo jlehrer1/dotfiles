@@ -56,3 +56,5 @@ alias ram="top -l 1 -s 0 | grep PhysMem"
 alias google="safari"
 alias fix="fuck"
 alias dots="sys"
+
+alias ideas="vim ~/.zsh_functions/.project_ideas.txt"
