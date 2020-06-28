@@ -6,7 +6,7 @@
 #    /\_____\  \/\_____\  \ \_\ \_\  \ \_\ \_\  \ \_____\ 	#
 #    \/_____/   \/_____/   \/_/\/_/   \/_/ /_/   \/_____/ 	#
 #															#
-  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+  # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Path to your oh-my-zsh installation.
 export ZSH="${HOME}/.oh-my-zsh"
@@ -24,7 +24,7 @@ ZSH_DISABLE_COMPFIX=true
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('${HOME}/opt/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('~/opt/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
@@ -51,11 +51,12 @@ export LESS_TERMCAP_ue=$'\e[0m'
 export LESS_TERMCAP_us=$'\e[1;4;31m'
 
 # for iStats (ruby gem)
-export PATH="${ZDOTDIR}/.rbenv/bin:$PATH"
+export PATH="${HOME}/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 # for python linter. This is not the best place to install it -- consider changing
-export PATH=${ZDOTDIR}/Library/Python/3.7/bin:$PATH
+# NOT A REAL PATH
+# export PATH=${HOME}/Library/Python/3.7/bin:$PATH
 
 # for dependency related to imagemagick
 export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
@@ -66,7 +67,7 @@ export FZF_DEFAULT_OPTS='
 	--color info:108,prompt:109,spinner:108,pointer:168,marker:168
 '
 # for fuck library
-eval 
+eval
             fuck () {
                 TF_PYTHONIOENCODING=$PYTHONIOENCODING;
                 export TF_SHELL=zsh;
