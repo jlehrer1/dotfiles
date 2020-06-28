@@ -3,7 +3,11 @@
 # Commits and pushes my zsh dotfiles
 function zshrcgit() {
     cd "${HOME}/Documents/Projects/System/zsh"
+	
+	# include vimrc since I often edit it too
 	cp "${HOME}/.vimrc" .
+	
+	# where oh-my-zsh looks for config files
 	cp "${HOME}/.zshenv" .	
     
 	cp "${ZDOTDIR}/.zshrc" .
