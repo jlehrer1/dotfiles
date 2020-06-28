@@ -14,7 +14,8 @@ alias pip="pip3"
 #aliases for zsh
 alias zshaliases="vim ${ZDOTDIR}/.zsh_aliases"
 alias zshsource="source ${ZDOTDIR}/.zshrc"
-alias zshconfig="vim ~/.zshrc"
+alias zshconfig="vim ${ZDOTDIR}/.zshrc"
+alias zshenv="vim ${HOME}/.zshenv"
 alias fnc="cd ${ZDOTDIR}/.zsh_functions"
 
 # convienence aliases -- makes workflow faster
