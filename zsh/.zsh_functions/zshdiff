@@ -7,7 +7,7 @@ function zshdiff() {
 	cp "${HOME}/.zshrc" .
 	cp "${HOME}/.zsh_aliases" .
 	git add -A
-	git diff
+	git diff HEAD
 	git reset --hard HEAD >/dev/null 2>&1
 	printf "HEAD log is: "
 	git log -n 1 | cat | tail -n 1 | xargs

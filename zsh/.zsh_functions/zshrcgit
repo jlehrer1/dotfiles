@@ -6,7 +6,7 @@ function zshrcgit() {
     cp "${HOME}/.zshrc" .
     cp "${HOME}/.zsh_aliases" .
 	cp "${HOME}/.zshenv" .	
-	ditto "${HOME}/.zsh_functions/" .
+	ditto "${HOME}/.zsh_functions/" ./.zsh_functions/
 	cp "${HOME}/.vimrc" .
 	
 	git add -A
