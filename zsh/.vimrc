@@ -31,3 +31,5 @@ set number
 "Annoying becaue it does it for all, not just function braces
 "inoremap { {<CR>}<Esc>ko
 
+"Remove whitespace at end of lines
+autocmd BufWritePre * :%s/\s\+$//

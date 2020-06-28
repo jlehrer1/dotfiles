@@ -8,22 +8,18 @@
 #															#
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 # Path to your oh-my-zsh installation.
 export ZSH="${HOME}/.oh-my-zsh"
 
 # nice themes: {af-magic, wezm+}
 ZSH_THEME="af-magic"
 
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
+# plugins
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+# for weird OSX Catalina error
 ZSH_DISABLE_COMPFIX=true
 
 # >>> conda initialize >>>
@@ -90,4 +86,4 @@ eval
 
 autoload ${ZDOTDIR}/.zsh_functions/*
 autoload ${ZDOTDIR}/.zsh_functions/.social/*
-source $ZDOTDIR/.zsh_aliases      
+source $ZDOTDIR/.zsh_aliases
