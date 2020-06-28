@@ -3,6 +3,7 @@
 
 # install my brew packages
 xargs brew install < brew_packages.txt
+xargs brew cat install < cask_packages.txt
 
 # install rbenv for iStats, which is needed for my BetterTouchTool setup. Also safer 
 # than installing anything into the system ruby
@@ -16,3 +17,4 @@ echo $(where ruby)
 
 # install iStats, but not default packages. Check if there is a better way to do this
 gem install iStats
+
