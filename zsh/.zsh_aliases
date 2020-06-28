@@ -43,7 +43,6 @@ alias gs="git status"
 alias gitignore="vim .gitignore"
 
 # aliases for common shell commands
-alias restart="exec zsh"
 alias vimrc="vim ~/.vimrc"
 alias vimrcsource="source ~/.vimrc"
 alias ls="exa"

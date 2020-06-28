@@ -3,6 +3,6 @@
 # searches recursively in my zsh folder for the given string,
 # useful for finding aliases
 function zshsearch() {
-	grep -r "$@" "${HOME}/.zsh_custom"
+	grep -r "$@" --exclude=".zsh_history" "${HOME}/.zsh_custom" "$ZSH"
 }
 
