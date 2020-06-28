@@ -1,1 +1,1 @@
-export ZDOTDIR=~/
+export ZDOTDIR=~/.zsh_custom/

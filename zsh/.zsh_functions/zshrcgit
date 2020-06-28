@@ -3,11 +3,12 @@
 # Commits and pushes my zsh dotfiles
 function zshrcgit() {
     cd "${HOME}/Documents/Projects/System/zsh"
-    cp "${HOME}/.zshrc" .
-    cp "${HOME}/.zsh_aliases" .
-	cp "${HOME}/.zshenv" .	
-	ditto "${HOME}/.zsh_functions/" ./.zsh_functions/
 	cp "${HOME}/.vimrc" .
+	cp "${HOME}/.zshenv" .	
+    
+	cp "${ZDOTDIR}/.zshrc" .
+    cp "${ZDOTDIR}/.zsh_aliases" .
+	ditto "${ZDOTDIR}/.zsh_functions/" ./.zsh_functions/
 	
 	git add -A
     if [ -z "$1" ]; then

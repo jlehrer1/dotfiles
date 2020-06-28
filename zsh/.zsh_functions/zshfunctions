@@ -4,8 +4,8 @@
 # functions so one can be edited
 function zshfunctions() {
 	if [[ $1 == "-n" ]]; then
-		vim ~/.zsh_functions/$2		
+		vim "${ZDOTDIR}/.zsh_functions/${2}"	
 	else
-		vim ~/.zsh_functions
+		vim "${ZDOTDIR}/.zsh_functions"
 	fi
 }
