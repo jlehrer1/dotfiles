@@ -1,5 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 # opens minecraft
-function minecraft() { open -a Minecraft } 
-
+open -a Minecraft

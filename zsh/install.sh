@@ -9,6 +9,7 @@ mkdir -p "${ZDOTDIR}"
 echo "Moving files to HOME: $HOME"
 cp .zshenv "${HOME}"
 cp .vimrc "${HOME}"
+cp .tmux.conf "${HOME}"
 
 echo "Moving files to ZDOTDIR: $ZDOTDIR"
 cp .zshrc "${ZDOTDIR}"

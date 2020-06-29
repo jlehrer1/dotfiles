@@ -3,20 +3,23 @@
 # Commits and pushes my zsh dotfiles
 function zshrcgit() {
     cd "${HOME}/Documents/Projects/System/zsh"
-	
+
 	# include vimrc since I often edit it too
 	cp "${HOME}/.vimrc" .
-	
+
+	# and my tmux config
+	cp "${HOME}/.tmux.conf" .
+
 	# where oh-my-zsh looks for config files
-	cp "${HOME}/.zshenv" .	
-    
+	cp "${HOME}/.zshenv" .
+
 	cp "${ZDOTDIR}/.zshrc" .
     cp "${ZDOTDIR}/.zsh_aliases" .
 	ditto "${ZDOTDIR}/.zsh_functions/" ./.zsh_functions/
-	
+
 	git add -A
     if [ -z "$1" ]; then
-        git commit 
+        git commit
     else
         git commit -m "$1"
     fi

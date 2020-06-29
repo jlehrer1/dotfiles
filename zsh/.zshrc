@@ -85,6 +85,7 @@ eval
                 test -n "$TF_CMD" && print -s $TF_CMD
             }
 
+#export PATH="$ZDOTDIR/.zsh_functions:$PATH"
 autoload ${ZDOTDIR}/.zsh_functions/*
 autoload ${ZDOTDIR}/.zsh_functions/.social/*
 source $ZDOTDIR/.zsh_aliases
