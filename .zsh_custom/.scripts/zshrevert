@@ -1,7 +1,0 @@
-#!/bin/bash
-
-# reverts zsh-things to the previous head
-cd "${HOME}/Documents/Projects/System/zsh"
-echo "Reverting .zsh things to HEAD...\n"	
-git reset --hard HEAD
-cd $OLDPWD

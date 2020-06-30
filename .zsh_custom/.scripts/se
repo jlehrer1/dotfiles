@@ -1,6 +1,6 @@
 #/bin/bash
 
 # se for "sEarch Shallow"
-# fzf only current folder
+# fzf only current folder and copy selected to clipboard
 command ls -lah | fzf | rev | awk '{print $1}' | rev | pbcopy 
 
