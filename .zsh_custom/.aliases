@@ -63,6 +63,7 @@ alias yc="yadm commit"
 alias yp="yadm push"
 alias yd="yadm diff"
 alias yl="yadm list -a"
+alias ypl="yadm pull"
 alias ygitignore="vim ${HOME}/.gitignore"
 
 # aliases for system stats

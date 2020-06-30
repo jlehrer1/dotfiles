@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# opens my dotfile repo in Safari
+open -a Safari "https://github.com/jlehrer1/dotfiles"
