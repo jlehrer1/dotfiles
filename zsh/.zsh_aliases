@@ -30,9 +30,9 @@ alias ip="ipython"
 alias proj="cd ~/Documents/Projects"
 alias desk="cd ~/Desktop"
 alias down="cd ~/Downloads"
-alias dots="${ZDOTDIR}"
+alias dots="cd ${ZDOTDIR}"
 alias ideas="vim ~/.zsh_functions/.project_ideas.txt"
-alias sys="${DOTSREPO}"
+alias drep="${DOTSREPO}"
 
 # aliases for conda 
 alias el="conda env list"

@@ -94,7 +94,8 @@ eval
                 test -n "$TF_CMD" && print -s $TF_CMD
             }
 
+# Add my scripts to path
 export PATH="$ZDOTDIR/.zsh_functions:$PATH"
-#autoload ${ZDOTDIR}/.zsh_functions/*
-#autoload ${ZDOTDIR}/.zsh_functions/.social/*
+
+# source my aliases
 source $ZDOTDIR/.zsh_aliases
