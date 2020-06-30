@@ -1,6 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 # prints the master list of my brew packages
-function brewmasterlist() {
-	cat ~/Documents/Projects/System/packages/brew_packages.txt
-}
+less ~/Documents/Projects/System/packages/brew_packages.txt

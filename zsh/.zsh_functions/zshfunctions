@@ -1,11 +1,10 @@
-#!/bin/zsh
+#!/bin/bash
 
 # either vim's into a new file for a new function (if -n), or lists my custom
 # functions so one can be edited
-function zshfunctions() {
-	if [[ $1 == "-n" ]]; then
-		vim "${ZDOTDIR}/.zsh_functions/${2}"	
-	else
-		vim "${ZDOTDIR}/.zsh_functions"
-	fi
-}
+if [[ $1 == "-n" ]]; then
+	vim "${ZDOTDIR}/.zsh_functions/${2}"	
+else
+	vim "${ZDOTDIR}/.zsh_functions"
+fi
+

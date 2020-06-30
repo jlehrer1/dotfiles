@@ -1,2 +1,5 @@
-function nyt() { open -a Safari "https://www.nytimes.com" }
+#!/bin/bash
+
+# opens the new york times homepage
+open -a Safari "https://www.nytimes.com"
 

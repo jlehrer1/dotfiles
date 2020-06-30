@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
-function matlab() { open -a "Matlab" "$@" }
-
+# opens the given file in Matlab
+open -a "Matlab" "$@"

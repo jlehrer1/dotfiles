@@ -1,2 +1,4 @@
-function facebook() { open -a Safari "https://www.facebook.com" }
+#!/bin/bash
 
+# opens facebook
+open -a Safari "https://www.facebook.com"

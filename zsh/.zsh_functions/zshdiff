@@ -1,17 +1,23 @@
-#!/bin/zsh
+#!/bin/bash
 
-# git diff my current zsh setup with my git repo
-function zshdiff() {
-	cd ~/Documents/Projects/System/zsh
-	ditto "${ZDOTDIR}/.zsh_functions" ./.zsh_functions
-	cp "${ZDOTDIR}/.zshrc" .
-	cp "${ZDOTDIR}/.zsh_aliases" .
+# git diff my current zsh setup with my git repo and print 
+# the head log of my dotfile repo
+cd ~/Documents/Projects/System/zsh
+ditto "${ZDOTDIR}/.zsh_functions" ./.zsh_functions
+cp "${ZDOTDIR}/.zshrc" .
+cp "${ZDOTDIR}/.zsh_aliases" .
 
-	git add -A
+git add -A
+
+if [[ $# -eq 0 ]]; then		
 	git diff HEAD
-	git reset >/dev/null 2>&1
-	git restore -- .
-	printf "HEAD log is: "
-	git log -n 1 | cat | tail -n 1 | xargs
-	cd $OLDPWD
-}
+else
+	git diff "$@"
+fi
+
+git reset >/dev/null 2>&1
+git restore -- .
+printf "HEAD log is: "
+git log -n 1 | cat | tail -n 1 | xargs
+cd $OLDPWD
+

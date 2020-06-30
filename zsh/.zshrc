@@ -11,6 +11,15 @@
 # Path to your oh-my-zsh installation.
 export ZSH="${HOME}/.oh-my-zsh"
 
+# path to my scripts / functions (working on converting to scripts)
+export SCRIPTS="${ZDOTDIR}/.zsh_functions"
+
+# path to my projects folder
+export PROJECTS="${HOME}/Documents/Projects"
+
+# path to my dotfile repo
+export DOTSREPO="${PROJECTS}/System"
+
 # nice themes: {af-magic, wezm+}
 ZSH_THEME="af-magic"
 
@@ -85,7 +94,7 @@ eval
                 test -n "$TF_CMD" && print -s $TF_CMD
             }
 
-#export PATH="$ZDOTDIR/.zsh_functions:$PATH"
-autoload ${ZDOTDIR}/.zsh_functions/*
-autoload ${ZDOTDIR}/.zsh_functions/.social/*
+export PATH="$ZDOTDIR/.zsh_functions:$PATH"
+#autoload ${ZDOTDIR}/.zsh_functions/*
+#autoload ${ZDOTDIR}/.zsh_functions/.social/*
 source $ZDOTDIR/.zsh_aliases

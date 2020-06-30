@@ -1,2 +1,6 @@
-function reddit() {	open -a Safari "https://www.reddit.com" }
+#!/bin/bash
+
+# opens reddit homepage
+# TODO: Add ability to go to subreddit
+open -a Safari "https://www.reddit.com"
 

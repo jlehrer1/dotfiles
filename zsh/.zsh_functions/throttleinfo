@@ -1,7 +1,5 @@
-#!/bin/zsh
+#!/bin/bash
 
 # prints system stats about CPU throttling
-function throttleinfo() {
-	gtimeout .01s pmset -g thermlog
-}
+gtimeout .01s pmset -g thermlog
 

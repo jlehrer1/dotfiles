@@ -1,5 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 # opens system prefereces
-function pref() { open -a "System Preferences" }
-
+open -a "System Preferences"

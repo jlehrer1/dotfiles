@@ -1,8 +1,6 @@
-#/bin/zsh
+#/bin/bash
 
 # se for "sEarch Shallow"
 # fzf only current folder
-function se() {
-	command ls -lah | fzf | rev | awk '{print $1}' | rev | pbcopy 
-}
+command ls -lah | fzf | rev | awk '{print $1}' | rev | pbcopy 
 

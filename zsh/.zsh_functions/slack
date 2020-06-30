@@ -1,2 +1,5 @@
-function slack() { open -a Slack } 
+#!/bin/bash
+
+# opens Slack
+open -a Slack
 

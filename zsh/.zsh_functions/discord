@@ -1,2 +1,4 @@
-function discord() { open -a Discord }
+#!/bin/bash
 
+# opens discord
+open -a "Discord"

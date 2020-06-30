@@ -1,7 +1,5 @@
-#!/bin/zsh
+#!/bin/bash
 
 # Reloads the shell
-#function restart() {
-	echo "Reloading shell..."
-	exec zsh
-#}
+echo "Reloading shell..."
+exec zsh
