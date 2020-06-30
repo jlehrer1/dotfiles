@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Commits and pushes my zsh dotfiles
-cd "${HOME}/Documents/Projects/System/zsh"
+cd "${DOTSREPO}"
 
 # include vimrc since I often edit it too
 cp "${HOME}/.vimrc" .
@@ -13,8 +13,8 @@ cp "${HOME}/.tmux.conf" .
 cp "${HOME}/.zshenv" .
 
 cp "${ZDOTDIR}/.zshrc" .
-cp "${ZDOTDIR}/.zsh_aliases" .
-ditto "${ZDOTDIR}/.zsh_functions/" ./.zsh_functions/
+cp "${ALIASES}" .
+ditto "${SCRIPTS} ./"${SCRIPTS}"
 
 git add -A
 if [ -z "$1" ]; then

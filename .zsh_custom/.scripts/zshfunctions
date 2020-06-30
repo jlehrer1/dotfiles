@@ -3,8 +3,8 @@
 # either vim's into a new file for a new function (if -n), or lists my custom
 # functions so one can be edited
 if [[ $1 == "-n" ]]; then
-	vim "${ZDOTDIR}/.zsh_functions/${2}"	
+	vim "${SCRIPTS}/${2}"	
 else
-	vim "${ZDOTDIR}/.zsh_functions"
+	vim "${SCRIPTS}"
 fi
 

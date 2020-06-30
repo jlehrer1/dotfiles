@@ -3,9 +3,9 @@
 # git diff my current zsh setup with my git repo and print 
 # the head log of my dotfile repo
 cd ~/Documents/Projects/System/zsh
-ditto "${ZDOTDIR}/.zsh_functions" ./.zsh_functions
+ditto "${SCRIPTS}" ./${SCRIPTS}
 cp "${ZDOTDIR}/.zshrc" .
-cp "${ZDOTDIR}/.zsh_aliases" .
+cp "${ALIASES}" .
 
 git add -A
 

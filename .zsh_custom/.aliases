@@ -12,11 +12,11 @@ alias python="python3" #this is using the python installed by brew (on my tempor
 alias pip="pip3"
 
 #aliases for zsh
-alias aliases="vim ${ZDOTDIR}/.zsh_aliases"
+alias aliases="vim ${ALIASES}"
 alias zshsource="source ${ZDOTDIR}/.zshrc"
 alias zshconfig="vim ${ZDOTDIR}/.zshrc"
 alias zshenv="vim ${HOME}/.zshenv"
-alias fnc="cd ${ZDOTDIR}/.zsh_functions"
+alias fnc="cd ${SCRIPTS}"
 
 # convienence aliases -- makes workflow faster
 alias jn="jupyter notebook"
@@ -30,7 +30,7 @@ alias proj="cd ${HOME}/Documents/Projects"
 alias desk="cd ${HOME}/Desktop"
 alias down="cd ${HOME}/Downloads"
 alias dots="cd ${ZDOTDIR}"
-alias ideas="vim ${HOME}/.zsh_functions/.project_ideas.txt"
+alias ideas="vim ${SCRIPTS}/.project_ideas.txt"
 alias drep="${DOTSREPO}"
 
 # aliases for conda 
