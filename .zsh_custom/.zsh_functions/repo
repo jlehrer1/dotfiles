@@ -4,24 +4,29 @@
 # -m opens the base link of the repo
 # -mm opens the homepage to my git account. works while not in repo
 # Figure out github repo base URL
-local base_url
+#local base_url
 base_url=$(git config --get remote.origin.url)
 base_url=${base_url%\.git} # remove .git from end of string
 
 if [[ $1 == '-mm' ]]; then
 	open "https://github.com/jlehrer1"
-	return 1
+	exit 0
 fi
 
 # Validate that this folder is a git folder
 if ! git branch 2>/dev/null 1>&2 ; then
 	echo "Error: Not a git repository"
-	return 1
+	exit 0
 fi
 
 if [[ $1 == '-m' ]]; then 
 	open $base_url
-	return 1
+	exit 0
+fi
+
+if [[ $1 == '-c' ]]; then
+	echo $base_url | pbcopy
+	exit 0
 fi
 
 # Fix git@github.com: URLs
@@ -54,7 +59,6 @@ branch=${git_where#refs\/heads\/}
 
 [[ $base_url == *bitbucket* ]] && tree="src" || tree="tree"
 url="$base_url/$tree/$branch$relative_path"
-
 
 echo "Calling $(type open) for $url"
 

@@ -20,18 +20,17 @@ alias fnc="cd ${ZDOTDIR}/.zsh_functions"
 
 # convienence aliases -- makes workflow faster
 alias jn="jupyter notebook"
+alias ip="ipython"
 alias c="clear"
 alias e="open -e"
-alias treetxt="tree > tree.txt"
-alias README="code README.md"
-alias ip="ipython"
+alias v="vim"
 
 # aliases for moving around file system
-alias proj="cd ~/Documents/Projects"
-alias desk="cd ~/Desktop"
-alias down="cd ~/Downloads"
+alias proj="cd ${HOME}/Documents/Projects"
+alias desk="cd ${HOME}/Desktop"
+alias down="cd ${HOME}/Downloads"
 alias dots="cd ${ZDOTDIR}"
-alias ideas="vim ~/.zsh_functions/.project_ideas.txt"
+alias ideas="vim ${HOME}/.zsh_functions/.project_ideas.txt"
 alias drep="${DOTSREPO}"
 
 # aliases for conda 
@@ -42,22 +41,24 @@ alias cda="conda deactivate"
 
 # aliases for git
 alias gs="git status"
+
+# aliases for git workflow
 alias gitignore="vim .gitignore"
+alias README="vim README.md"
 
 # aliases for common shell commands
-alias vimrc="vim ~/.vimrc"
-alias vimrcsource="source ~/.vimrc"
+alias vimrc="vim ${HOME}/.vimrc"
+alias vimrcsource="source ${HOME}/.vimrc"
 alias ls="exa"
 alias sl="ls"
 alias lh="ls -ld .?*" # show only hidden files
+alias lsh="ls -ld .?* | grep .zsh"
 
 # aliases for system stats
 alias ram="top -l 1 -s 0 | grep PhysMem"
 
 # alias since I'm lazy
-alias google="safari"
 alias fix="fuck"
-alias lsh="ls -ld .?* | grep .zsh"
 
 # useless
 alias asdf="echo "asdf""

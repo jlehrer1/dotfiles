@@ -2,4 +2,4 @@
 
 # Reloads the shell
 echo "Reloading shell..."
-exec zsh
+exec ${SHELL}

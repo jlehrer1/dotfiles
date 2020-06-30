@@ -10,15 +10,14 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="${HOME}/.oh-my-zsh"
-
 # path to my scripts / functions (working on converting to scripts)
 export SCRIPTS="${ZDOTDIR}/.zsh_functions"
-
 # path to my projects folder
 export PROJECTS="${HOME}/Documents/Projects"
-
 # path to my dotfile repo
 export DOTSREPO="${PROJECTS}/System"
+# path to my dotfiles
+export DOTS="${HOME}/.zsh_custom"
 
 # nice themes: {af-magic, wezm+}
 ZSH_THEME="af-magic"
@@ -26,11 +25,12 @@ ZSH_THEME="af-magic"
 # plugins
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
+source "${ZSH}/oh-my-zsh.sh"
 
 # for weird OSX Catalina error
 ZSH_DISABLE_COMPFIX=true
 
+INC_APPEND_HISTORY=false
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('~/opt/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
@@ -63,10 +63,6 @@ export LESS_TERMCAP_us=$'\e[1;4;31m'
 export PATH="${HOME}/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-# for python linter. This is not the best place to install it -- consider changing
-# NOT A REAL PATH
-# export PATH=${HOME}/Library/Python/3.7/bin:$PATH
-
 # for dependency related to imagemagick
 export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
 
@@ -75,6 +71,7 @@ export FZF_DEFAULT_OPTS='
 	--color fg:242,bg:233,hl:65,fg+:15,bg+:234,hl+:108
 	--color info:108,prompt:109,spinner:108,pointer:168,marker:168
 '
+
 # for fuck library
 eval
             fuck () {
@@ -95,7 +92,7 @@ eval
             }
 
 # Add my scripts to path
-export PATH="$ZDOTDIR/.zsh_functions:$PATH"
+export PATH="${ZDOTDIR}/.zsh_functions:$PATH"
 
 # source my aliases
-source $ZDOTDIR/.zsh_aliases
+source "${ZDOTDIR}/.zsh_aliases"

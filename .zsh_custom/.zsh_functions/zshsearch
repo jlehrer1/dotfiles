@@ -2,4 +2,4 @@
 
 # searches recursively in my zsh config and zsh install folder for the regex pattern
 # useful for finding aliases
-grep -r "$@" --exclude=".zsh_history" "${HOME}/.zsh_custom" "$ZSH"
+grep -r "$@" --color=auto --exclude=".zsh_history" "${DOTS}" "${ZSH}" "${HOME}/.zshenv"
