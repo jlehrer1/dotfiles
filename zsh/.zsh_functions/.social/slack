@@ -1,5 +1,0 @@
-#!/bin/zsh
-
-# opens slack
-function slack() { open -a Slack } 
-
