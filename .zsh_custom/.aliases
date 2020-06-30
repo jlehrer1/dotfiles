@@ -12,7 +12,7 @@ alias python="python3" #this is using the python installed by brew (on my tempor
 alias pip="pip3"
 
 #aliases for zsh
-alias zshaliases="vim ${ZDOTDIR}/.zsh_aliases"
+alias aliases="vim ${ZDOTDIR}/.zsh_aliases"
 alias zshsource="source ${ZDOTDIR}/.zshrc"
 alias zshconfig="vim ${ZDOTDIR}/.zshrc"
 alias zshenv="vim ${HOME}/.zshenv"
