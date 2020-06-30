@@ -63,6 +63,7 @@ alias yc="yadm commit"
 alias yp="yadm push"
 alias yd="yadm diff"
 alias yl="yadm list -a"
+alias ygitignore="vim ${HOME}/.gitignore"
 
 # aliases for system stats
 alias ram="top -l 1 -s 0 | grep PhysMem"
