@@ -26,7 +26,7 @@ alias e="open -e"
 alias v="vim"
 
 # aliases for moving around file system
-alias proj="cd ${HOME}/Documents/Projects"
+alias proj="cd ${PROJECTS}"
 alias desk="cd ${HOME}/Desktop"
 alias down="cd ${HOME}/Downloads"
 alias dots="cd ${ZDOTDIR}"
