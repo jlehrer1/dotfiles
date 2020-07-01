@@ -14,7 +14,7 @@ Pictures/
 Public/
 
 # things in config
-#/.config/*
+.config
 #!/.config/yadm/
 
 # hidden files / folders
