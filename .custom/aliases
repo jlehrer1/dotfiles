@@ -69,6 +69,8 @@ alias yreflog="yadm reflog"
 alias yrhh="yadm reset --hard HEAD"
 alias yrsh="yadm reset --soft HEAD"
 alias yrh="yadm reset"
+alias yca="yadm commit --amend"
+alias ydc="yadm diff --cached"
 
 # aliases for system stats
 alias ram="top -l 1 -s 0 | grep PhysMem"
