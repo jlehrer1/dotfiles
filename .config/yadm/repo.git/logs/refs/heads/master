@@ -17,3 +17,4 @@ e9c4d00191f2913b58bc2a2208d5f8e3910d79bb 8003757c1ff76578e6d31a3f72dc7f1c3981ee0
 4345e579f6052b8a2b542f053d65269759ac165d bfb199dedbda378ff0c55ca2dcd0af51d739dcd5 Julian Lehrer <jmlehrer@ucsc.edu> 1593561672 -0700	commit: Renamed folder
 bfb199dedbda378ff0c55ca2dcd0af51d739dcd5 b35a2fd7af13ab32ec65e00a549ba2ef97fdda8c Julian Lehrer <jmlehrer@ucsc.edu> 1593561854 -0700	commit: Changed folder names to make unhidden
 b35a2fd7af13ab32ec65e00a549ba2ef97fdda8c c1b97446a63e554387ae1701d7d101ae02fd8514 Julian Lehrer <jmlehrer@ucsc.edu> 1593562513 -0700	commit: Added yadm config
+c1b97446a63e554387ae1701d7d101ae02fd8514 061846fae8042899d00a45df9190496c0845f657 Julian Lehrer <jmlehrer@ucsc.edu> 1593563029 -0700	commit: cleaned up aliases file

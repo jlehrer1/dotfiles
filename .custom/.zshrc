@@ -19,7 +19,7 @@ export PROJECTS="${HOME}/Documents/Projects"
 # path to my dotfile repo, don't really need this while using yadm
 export DOTSREPO="${PROJECTS}/System"
 # path to my dotfiles
-export DOTS="${HOME}/.zsh_custom"
+export DOTS="${HOME}/.custom"
 
 # nice themes: {af-magic, wezm+}
 ZSH_THEME="af-magic"

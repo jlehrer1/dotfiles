@@ -1,3 +1,6 @@
+# macOS specific
+.DS_Store
+
 # default macOS folders
 Applications/
 Desktop/
@@ -19,7 +22,6 @@ Public/
 .bash_sessions
 .CFUserTextEncoding
 .conda
-.DS_Store
 .gitconfig
 .gnupg
 .ipython
