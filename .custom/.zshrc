@@ -11,12 +11,12 @@
 # Path to your oh-my-zsh installation.
 export ZSH="${HOME}/.oh-my-zsh"
 # path to my scripts / functions (working on converting to scripts)
-export SCRIPTS="${ZDOTDIR}/.scripts"
+export SCRIPTS="${ZDOTDIR}/scripts"
 # path to my aliases
-export ALIASES="${ZDOTDIR}/.aliases"
+export ALIASES="${ZDOTDIR}/aliases"
 # path to my projects folder
 export PROJECTS="${HOME}/Documents/Projects"
-# path to my dotfile repo
+# path to my dotfile repo, don't really need this while using yadm
 export DOTSREPO="${PROJECTS}/System"
 # path to my dotfiles
 export DOTS="${HOME}/.zsh_custom"
