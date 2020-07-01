@@ -1,0 +1,38 @@
+Changed folder names to make unhidden
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   .zshrc
+#	renamed:    .aliases -> aliases
+#	renamed:    .scripts/.project_ideas.txt -> scripts/.project_ideas.txt
+#	renamed:    .scripts/brewdiff -> scripts/brewdiff
+#	renamed:    .scripts/brewmasterlist -> scripts/brewmasterlist
+#	renamed:    .scripts/brewsave -> scripts/brewsave
+#	renamed:    .scripts/bttmonitor -> scripts/bttmonitor
+#	renamed:    .scripts/copy -> scripts/copy
+#	renamed:    .scripts/discord -> scripts/discord
+#	renamed:    .scripts/facebook -> scripts/facebook
+#	renamed:    .scripts/matlab -> scripts/matlab
+#	renamed:    .scripts/minecraft -> scripts/minecraft
+#	renamed:    .scripts/nyt -> scripts/nyt
+#	renamed:    .scripts/pathappend -> scripts/pathappend
+#	renamed:    .scripts/pref -> scripts/pref
+#	renamed:    .scripts/reddit -> scripts/reddit
+#	renamed:    .scripts/repo -> scripts/repo
+#	renamed:    .scripts/restart -> scripts/restart
+#	renamed:    .scripts/safari -> scripts/safari
+#	renamed:    .scripts/sd -> scripts/sd
+#	renamed:    .scripts/se -> scripts/se
+#	renamed:    .scripts/slack -> scripts/slack
+#	renamed:    .scripts/throttleinfo -> scripts/throttleinfo
+#	renamed:    .scripts/yrepo -> scripts/yrepo
+#	renamed:    .scripts/zshdiff -> scripts/zshdiff
+#	renamed:    .scripts/zshfunctions -> scripts/zshfunctions
+#	renamed:    .scripts/zshsearch -> scripts/zshsearch
+#	modified:   ../.zshenv
+#
+# Untracked files not listed

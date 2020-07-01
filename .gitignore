@@ -10,12 +10,15 @@ packages/
 Pictures/
 Public/
 
+# things in config
+/.config/*
+!/.config/yadm/
+
 # hidden files / folders
 .bash_history
 .bash_sessions
 .CFUserTextEncoding
 .conda
-.config
 .DS_Store
 .gitconfig
 .gnupg
