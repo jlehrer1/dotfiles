@@ -64,6 +64,8 @@ alias yd="yadm diff"
 alias yl="yadm list -a"
 alias ypl="yadm pull"
 alias ygitignore="vim ${HOME}/.gitignore"
+alias ylog="yadm log"
+alias yreflog="yadm reflog"
 
 # aliases for system stats
 alias ram="top -l 1 -s 0 | grep PhysMem"

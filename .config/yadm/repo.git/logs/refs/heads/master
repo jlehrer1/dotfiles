@@ -19,3 +19,4 @@ bfb199dedbda378ff0c55ca2dcd0af51d739dcd5 b35a2fd7af13ab32ec65e00a549ba2ef97fdda8
 b35a2fd7af13ab32ec65e00a549ba2ef97fdda8c c1b97446a63e554387ae1701d7d101ae02fd8514 Julian Lehrer <jmlehrer@ucsc.edu> 1593562513 -0700	commit: Added yadm config
 c1b97446a63e554387ae1701d7d101ae02fd8514 061846fae8042899d00a45df9190496c0845f657 Julian Lehrer <jmlehrer@ucsc.edu> 1593563029 -0700	commit: cleaned up aliases file
 061846fae8042899d00a45df9190496c0845f657 2f864f3cf81b52f3628fad1102f82ea1bb734e2d Julian Lehrer <jmlehrer@ucsc.edu> 1593578496 -0700	reset: moving to head
+2f864f3cf81b52f3628fad1102f82ea1bb734e2d 51bfa7ee0a5d289d9ccd3a5cc81024bb8dc03d45 Julian Lehrer <jmlehrer@ucsc.edu> 1593578612 -0700	commit: Fixed git corruption
