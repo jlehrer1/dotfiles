@@ -14,8 +14,8 @@ Pictures/
 Public/
 
 # things in config
-/.config/*
-!/.config/yadm/
+#/.config/*
+#!/.config/yadm/
 
 # hidden files / folders
 .bash_history
