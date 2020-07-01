@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+# ls only directories
+exec 2>/dev/null
+exa -d "$@" -- *(D/) 
+

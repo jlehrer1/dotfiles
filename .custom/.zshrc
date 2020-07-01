@@ -91,8 +91,8 @@ eval
                 test -n "$TF_CMD" && print -s $TF_CMD
             }
 
-# Add my scripts to path
-export PATH="${SCRIPTS}:$PATH"
-
 # source my aliases
 source "${ALIASES}"
+
+# Add my scripts to path
+export PATH="${SCRIPTS}:$PATH"

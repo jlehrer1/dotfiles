@@ -25,6 +25,7 @@ alias ip="ipython"
 alias c="clear"
 alias e="open -e"
 alias v="vim"
+alias s="fzf"
 
 # aliases for moving around file system
 alias proj="cd ${PROJECTS}"
