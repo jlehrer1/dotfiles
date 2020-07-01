@@ -9,7 +9,7 @@
   # # # # # # # # # # # # # # # # # # # # # # # # # 
 
 #aliases for python -- be careful here!
-alias python="python3" #this is using the python installed by brew (on my temporary Air). In the future, it should probably be using my conda env
+alias python="python3" 
 alias pip="pip3"
 
 #aliases for zsh
@@ -32,7 +32,6 @@ alias desk="cd ${HOME}/Desktop"
 alias down="cd ${HOME}/Downloads"
 alias dots="cd ${ZDOTDIR}"
 alias ideas="vim ${SCRIPTS}/.project_ideas.txt"
-alias drep="${DOTSREPO}"
 
 # aliases for conda 
 alias el="conda env list"
