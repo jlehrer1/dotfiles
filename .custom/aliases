@@ -41,6 +41,7 @@ alias cda="conda deactivate"
 
 # aliases for git
 alias gs="git status"
+alias gpl="git pull"
 
 # aliases for git workflow
 alias gitignore="vim .gitignore"

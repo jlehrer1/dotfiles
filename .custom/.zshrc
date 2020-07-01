@@ -16,8 +16,6 @@ export SCRIPTS="${ZDOTDIR}/scripts"
 export ALIASES="${ZDOTDIR}/aliases"
 # path to my projects folder
 export PROJECTS="${HOME}/Documents/Projects"
-# path to my dotfile repo, don't really need this while using yadm
-export DOTSREPO="${PROJECTS}/System"
 # path to my dotfiles
 export DOTS="${HOME}/.custom"
 
