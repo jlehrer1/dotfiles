@@ -77,8 +77,3 @@ alias yrm="yadm rm"
 # aliases for system stats
 alias ram="top -l 1 -s 0 | grep PhysMem"
 
-# alias since I'm lazy
-alias fix="fuck"
-
-# useless
-alias asdf="echo "asdf""
