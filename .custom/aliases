@@ -57,19 +57,22 @@ alias sl="ls"
 # aliases for yadm
 alias ya="yadm add"
 alias yaa="yadm add -A"
+
 alias ys="yadm status"
 alias yc="yadm commit"
 alias yp="yadm push"
 alias yd="yadm diff"
 alias ypl="yadm pull"
+
 alias ygitignore="vim ${HOME}/.gitignore"
 alias ylog="yadm log"
 alias yreflog="yadm reflog"
-alias yrhh="yadm reset --hard HEAD"
-alias yrsh="yadm reset --soft HEAD"
-alias yrh="yadm reset"
+
+alias yrh="yadm reset --hard"
+alias yrs="yadm reset --soft"
+alias yr="yadm reset"
 alias yca="yadm commit --amend"
-alias ydc="yadm diff --cached"
+alias yrm="yadm rm"
 
 # aliases for system stats
 alias ram="top -l 1 -s 0 | grep PhysMem"
