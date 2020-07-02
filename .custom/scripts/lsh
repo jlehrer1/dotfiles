@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+# prints zsh-type files
+exec 2>/dev/null
+ls -ld .?* | grep --color=never zsh
