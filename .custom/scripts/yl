@@ -1,0 +1,9 @@
+#!/bin/zsh
+
+# yadm list, with ability to search for the given parameters 
+if [ $# -eq 0 ]; then
+	yadm list -a
+else
+	yadm list -a | grep "$@"
+fi
+	
