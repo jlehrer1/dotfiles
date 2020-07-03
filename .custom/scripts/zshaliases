@@ -2,8 +2,8 @@
 
 # opens my zsh config, or opens and greps for input
 if [ $# -eq 0 ]; then
-        vim "${ZDOTDIR}/.zshrc"
+        vim "${ZDOTDIR}/aliases"
 else
-        grep --color=auto "$@" "${ZDOTDIR}/.zshrc"
+        grep --color=auto "$@" "${ZDOTDIR}/aliases"
 fi
 
