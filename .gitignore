@@ -12,6 +12,7 @@ opt/
 packages/
 Pictures/
 Public/
+Movies/
 
 # things in config
 .config
