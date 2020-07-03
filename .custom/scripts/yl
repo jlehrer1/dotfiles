@@ -4,6 +4,6 @@
 if [ $# -eq 0 ]; then
 	yadm list -a
 else
-	yadm list -a | grep "$@"
+	yadm list -a | grep --color=auto "$@"
 fi
 	
