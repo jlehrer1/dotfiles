@@ -19,7 +19,7 @@ export PROJECTS="${HOME}/Documents/Projects"
 # path to my dotfiles
 export DOTS="${HOME}/.custom"
 
-# nice themes: {af-magic, wezm+, fletcharm}
+# nice themes: {af-magic, wezm+, fletcherm, jreese}
 ZSH_THEME="af-magic"
 
 # plugins
