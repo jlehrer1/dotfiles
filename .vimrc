@@ -36,3 +36,4 @@ set number
 
 "Wrap text to given number of characters
 set tw=80
+
