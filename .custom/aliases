@@ -51,8 +51,8 @@ alias gitignore="${EDITOR} .gitignore"
 alias README="${EDITOR} README.md"
 
 # aliases for common shell commands
-alias vimrc="${EDITOR} ${HOME}/.${EDITOR}rc"
-alias vimrcsource="source ${HOME}/.${EDITOR}rc"
+alias vimrc="${EDITOR} ${HOME}/.vimrc"
+alias vimrcsource="source ${HOME}/.vimrc"
 alias ls="exa"
 alias sl="ls"
 alias tmuxconf="${EDITOR} ${HOME}/.tmux.conf"
