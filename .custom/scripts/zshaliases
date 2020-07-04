@@ -2,7 +2,7 @@
 
 # opens my zsh config, or opens and greps for input
 if [ $# -eq 0 ]; then
-        vim "${ZDOTDIR}/aliases"
+        ${EDITOR} "${ZDOTDIR}/aliases"
 else
         grep --color=auto "$@" "${ZDOTDIR}/aliases"
 fi
