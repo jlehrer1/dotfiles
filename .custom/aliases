@@ -28,7 +28,6 @@ alias s="fzf"
 # aliases for brew
 alias bi="brew info"
 alias bis="brew install"
-alias bl="brew list"
 
 # aliases for moving around file system
 alias proj="cd ${PROJECTS}"

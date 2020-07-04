@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Displays brew list, and greps if there is input
+if [ $# -eq 0 ]; then
+	brew list
+else
+	brew list | grep --color=auto "$@"
+fi 
