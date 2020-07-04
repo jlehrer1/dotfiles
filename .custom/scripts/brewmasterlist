@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# prints the master list of my brew packages
-less ~/Documents/Projects/System/packages/brew_packages.txt
