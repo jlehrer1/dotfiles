@@ -25,6 +25,11 @@ alias e="open -e"
 alias v="vim"
 alias s="fzf"
 
+# aliases for brew
+alias bi="brew info"
+alias bis="brew install"
+alias bl="brew list"
+
 # aliases for moving around file system
 alias proj="cd ${PROJECTS}"
 alias desk="cd ${HOME}/Desktop"
@@ -74,6 +79,7 @@ alias yca="yadm commit --amend"
 alias yrm="yadm rm"
 
 alias ystrap="vim ${HOME}/.config/yadm/bootstrap"
-# aliases for system stats
-alias ram="top -l 1 -s 0 | grep PhysMem"
 
+# aliases for system 
+alias ram="top -l 1 -s 0 | grep PhysMem"
+alias monitor='open -a "Activity Monitor"'
