@@ -14,7 +14,7 @@ alias pip="pip3"
 
 #aliases for zsh
 alias zshsource="source ${ZDOTDIR}/.zshrc"
-alias zshenv="vim ${HOME}/.zshenv"
+alias zshenv="${EDITOR} ${HOME}/.zshenv"
 alias scr="cd ${SCRIPTS}"
 
 # convienence aliases -- makes workflow faster
@@ -22,7 +22,7 @@ alias jn="jupyter notebook"
 alias ip="ipython"
 alias c="clear"
 alias e="open -e"
-alias v="vim"
+alias v="${EDITOR}"
 alias s="fzf"
 
 # aliases for brew
@@ -34,7 +34,7 @@ alias proj="cd ${PROJECTS}"
 alias desk="cd ${HOME}/Desktop"
 alias down="cd ${HOME}/Downloads"
 alias dots="cd ${ZDOTDIR}"
-alias ideas="vim ${SCRIPTS}/.project_ideas.txt"
+alias ideas="${EDITOR} ${SCRIPTS}/.project_ideas.txt"
 
 # aliases for conda 
 alias el="conda env list"
@@ -47,15 +47,15 @@ alias gs="git status"
 alias gpl="git pull"
 
 # aliases for git workflow
-alias gitignore="vim .gitignore"
-alias README="vim README.md"
+alias gitignore="${EDITOR} .gitignore"
+alias README="${EDITOR} README.md"
 
 # aliases for common shell commands
-alias vimrc="vim ${HOME}/.vimrc"
-alias vimrcsource="source ${HOME}/.vimrc"
+alias vimrc="${EDITOR} ${HOME}/.${EDITOR}rc"
+alias vimrcsource="source ${HOME}/.${EDITOR}rc"
 alias ls="exa"
 alias sl="ls"
-alias tmuxconf="vim ${HOME}/.tmux.conf"
+alias tmuxconf="${EDITOR} ${HOME}/.tmux.conf"
 
 # aliases for yadm
 alias ya="yadm add"
@@ -67,7 +67,7 @@ alias yp="yadm push"
 alias yd="yadm diff"
 alias ypl="yadm pull"
 
-alias ygitignore="vim ${HOME}/.gitignore"
+alias ygitignore="${EDITOR} ${HOME}/.gitignore"
 alias ylog="yadm log"
 alias yreflog="yadm reflog"
 
@@ -77,7 +77,7 @@ alias yr="yadm reset"
 alias yca="yadm commit --amend"
 alias yrm="yadm rm"
 
-alias ystrap="vim ${HOME}/.config/yadm/bootstrap"
+alias ystrap="${EDITOR} ${HOME}/.config/yadm/bootstrap"
 
 # aliases for system 
 alias ram="top -l 1 -s 0 | grep PhysMem"
