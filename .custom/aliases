@@ -27,6 +27,7 @@ alias s="fzf"
 
 # aliases for brew
 alias bi="brew info"
+alias bcl="brew cask list"
 alias bis="brew install"
 
 # aliases for moving around file system
