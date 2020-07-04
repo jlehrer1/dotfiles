@@ -9,6 +9,9 @@ To install, run
 ```shell
 brew install yadm
 yadm clone https://github.com/jlehrer1/dotfiles
+# restart the Terminal so that env variables can be accessed
+exec zsh
+# now run bootstrap
 yadm bootstrap
 ```
 
