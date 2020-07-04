@@ -52,6 +52,10 @@ else
         export PATH="/Users/julian/opt/miniconda3/bin:$PATH"
     fi
 fi
+
+
 unset __conda_setup
 # <<< conda initialize <<<
 
+fpath+="${HOME}/opt/conda-zsh-completion"
+compinit
