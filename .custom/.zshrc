@@ -19,7 +19,7 @@ export PROJECTS="${HOME}/Documents/Projects"
 export DOTS="${HOME}/.custom"
 
 # nice themes: {af-magic, wezm+, fletcherm, jreese}
-ZSH_THEME="wezm+"
+ZSH_THEME="af-magic"
 
 # plugins
 plugins=(git)
