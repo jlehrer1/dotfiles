@@ -2,5 +2,5 @@
 
 # prints only hidden files
 exec 2>/dev/null
-ls -ld .?*
+exa -ld .?*
 

@@ -39,9 +39,6 @@ source "${ALIASES}"
 # Add my scripts to path
 export PATH="${SCRIPTS}:$PATH"
 
-# source the misc color configs, etc
-source "${ZDOTDIR}/preferences"
-
 ZSH_DISABLE_COMPFIX=true
 
 # Conda setup
