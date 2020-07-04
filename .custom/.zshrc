@@ -17,6 +17,8 @@ export ALIASES="${ZDOTDIR}/aliases"
 export PROJECTS="${HOME}/Documents/Projects"
 # path to my dotfiles
 export DOTS="${HOME}/.custom"
+# my default command line editor
+export EDITOR="vim"
 
 # nice themes: {af-magic, wezm+, fletcherm, jreese}
 ZSH_THEME="af-magic"
@@ -52,10 +54,11 @@ else
         export PATH="/Users/julian/opt/miniconda3/bin:$PATH"
     fi
 fi
-
-
 unset __conda_setup
 # <<< conda initialize <<<
 
+# for conda autocomplete
 fpath+="${HOME}/opt/conda-zsh-completion"
 compinit
+
+prompt_context(){}

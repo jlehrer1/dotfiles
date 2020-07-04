@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Prints the stderr of a function if it exists, else prints nothing
-{ { "$@"; } 2>&3 | sed 's/^/STDOUT: /'; } 3>&1 1>&2 | sed 's/^/STDERR: /'
+{ { "${@}"; } 2>&3 | sed 's/^/STDOUT: /'; } 3>&1 1>&2 | sed 's/^/STDERR: /'
