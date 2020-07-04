@@ -2,13 +2,37 @@
 
 echo "Calling ~/.config/yadm/bootstrap..."
 
+
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-brew install rbenv
-rbenv install 2.7.1
-rbenv global 2.7.1
+if ! [ -x "$(command -v brew)" ]; then
+	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+else
+	echo "brew installed... continuing"
+fi
 
-exec zsh
+if ! [ -x "$(command -v rbenv)" ]; then
+	brew install rbenv
+	rbenv install 2.7.1
+	rbenv global 2.7.1
+else
+	echo "rbenv installed... continuing"
+fi
+
+mkdir -p "${HOME}/Documents/Projects"
+cd "${HOME}/Documents/Projects"
+
+echo "Cloning projects..."
+
+git clone https://github.com/jlehrer1/BTT-Practical.git
+git clone https://github.com/jlehrer1/Misc.git
+git clone https://github.com/jlehrer1/Projects.git
+git clone https://github.com/jlehrer1/InstantEDA.git
+git clone https://github.com/jlehrer1/resume.git
+git clone https://github.com/jlehrer1/quick_model.git
+git clone https://github.com/jlehrer1/DengAI.git
+git clone https://github.com/jlehrer1/personal-website.git
+
+cd "${OLDPWD}"
 
 echo "Finished basic setup... please restart Terminal"

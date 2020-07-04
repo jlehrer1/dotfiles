@@ -73,6 +73,7 @@ alias yr="yadm reset"
 alias yca="yadm commit --amend"
 alias yrm="yadm rm"
 
+alias ystrap="vim ${HOME}/.config/yadm/bootstrap"
 # aliases for system stats
 alias ram="top -l 1 -s 0 | grep PhysMem"
 
