@@ -9,21 +9,26 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="${HOME}/.oh-my-zsh"
+
 # path to my scripts / functions (working on converting to scripts)
 export SCRIPTS="${ZDOTDIR}/scripts"
+
 # path to my aliases
 export ALIASES="${ZDOTDIR}/aliases"
+
 # path to my projects folder
 export PROJECTS="${HOME}/Documents/Projects"
+
 # path to my dotfiles
 export DOTS="${HOME}/.custom"
+
 # my default command line editor
 export EDITOR="vim"
 
 # nice themes: {af-magic, wezm+, fletcherm, jreese}
 ZSH_THEME="af-magic"
 
-# plugins
+# zsh plugins
 plugins=(git)
 
 source "${ZSH}/oh-my-zsh.sh"
@@ -61,4 +66,3 @@ unset __conda_setup
 fpath+="${HOME}/opt/conda-zsh-completion"
 compinit
 
-prompt_context(){}
