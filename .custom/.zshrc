@@ -19,9 +19,6 @@ export ALIASES="${ZDOTDIR}/aliases"
 # path to my projects folder
 export PROJECTS="${HOME}/Documents/Projects"
 
-# path to my dotfiles
-export DOTS="${HOME}/.custom"
-
 # my default command line editor
 export EDITOR="vim"
 

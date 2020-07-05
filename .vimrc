@@ -27,10 +27,6 @@ set smarttab
 "Show line numbers"
 set number
 
-"Automatically match opening brace and move in between them
-"Annoying becaue it does it for all, not just function braces
-"inoremap { {<CR>}<Esc>ko
-
 "Remove whitespace at end of lines
 "autocmd BufWritePre * :%s/\s\+$//
 

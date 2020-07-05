@@ -39,6 +39,7 @@ alias ideas="${EDITOR} ${SCRIPTS}/.project_ideas.txt"
 
 # aliases for conda 
 alias el="conda env list"
+alias cl="conda list"
 alias ca="conda activate"
 alias cc="conda create"
 alias cda="conda deactivate"

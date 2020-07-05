@@ -1,6 +1,10 @@
 #!/bin/zsh
 
-# prints only hidden files
+# prints only hidden files with my usual searching ability
 exec 2>/dev/null
-exa -ld .?*
+if [ $# -eq 0 ]; then 
+	exa -ld .?*
+else
+	exa -ld .?* | grep --color=auto "$@"
+fi
 
