@@ -3,4 +3,4 @@
 # Searches my entire home directory for the given search term
 # with grep
 
-find ~/ 2>/dev/null | cut -c3- | grep "$@"
+find ~ 2>/dev/null | grep "$@"
