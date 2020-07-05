@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Prints all brew packages and their total file sizes, or performs the operation
+# and passes into grep if specified
+
+if [ $# -eq 0 ]; then
+	brew list | xargs brew info | egrep --color '\d*\.\d*(KB|MB|GB)'
+else
+	brew list | xargs brew info | egrep --color '\d*\.\d*(KB|MB|GB)' | grep "$@"
+fi

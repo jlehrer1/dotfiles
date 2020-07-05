@@ -3,3 +3,4 @@
 # Reloads the shell
 echo "Reloading shell..."
 exec ${SHELL}
+
