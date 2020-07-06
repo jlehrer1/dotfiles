@@ -2,6 +2,11 @@
 
 echo -e "\033[32mCalling ~/.config/yadm/bootstrap...\033[0m"
 
+if [[ "$OSTYPE" != "darwin"* ]]; then
+	echo "Not on a Mac, exiting..."
+	exit 1
+fi
+
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 if ! [ -x "$(command -v brew)" ]; then

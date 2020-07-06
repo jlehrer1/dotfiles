@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Applications/Macs Fan Control.app/Contents/Frameworks/QtMacExtras.framework/Versions/Current'
+let g:netrw_dirhist_5='/Applications/Macs Fan Control.app/Contents/Frameworks/QtMacExtras.framework/Versions'
 let g:netrw_dirhist_4='/Users/julian/.custom/scripts'
 let g:netrw_dirhist_3='/Users/jmlehrer/.zsh_custom/.scripts'
 let g:netrw_dirhist_2='/Users/jmlehrer/.config/yadm/repo.git'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_0='/Users/jmlehrer/.zsh_functions'
 let g:netrw_dirhist_9='/Applications/Keynote.app'
 let g:netrw_dirhist_8='/Applications'
 let g:netrw_dirhist_7='/'
-let g:netrw_dirhist_6='/Users'
-let g:netrw_dirhist_5='/Users/jmlehrer'
