@@ -47,6 +47,7 @@ alias cda="conda deactivate"
 # aliases for git
 alias gs="git status"
 alias gpl="git pull"
+alias gdh="git diff HEAD"
 
 # aliases for git workflow
 alias gitignore="${EDITOR} .gitignore"
