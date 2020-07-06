@@ -2,5 +2,8 @@
 
 # ls only directories
 exec 2>/dev/null
-exa -d "$@" -- *(D/) 
-
+if [ $# -eq 0 ]
+	exa -d "$@" -- *(D/) 
+else
+	exa -d -- *(D/) | grep --color=auto "$@"
+fi
