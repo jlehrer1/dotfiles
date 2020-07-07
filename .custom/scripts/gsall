@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# gets git status of each of my projects and yadm
+for d in ${PROJECTS}/* ; do
+	echo "Status in $d"
+	git -C "$d" status
+done
+
+yadm status
