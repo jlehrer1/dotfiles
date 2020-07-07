@@ -68,6 +68,7 @@ alias ys="yadm status"
 alias yc="yadm commit"
 alias yp="yadm push"
 alias yd="yadm diff"
+alias ydh="yadm diff HEAD"
 alias ypl="yadm pull"
 
 alias ygitignore="${EDITOR} ${HOME}/.gitignore"
