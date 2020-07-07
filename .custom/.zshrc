@@ -43,6 +43,7 @@ source "${ALIASES}"
 # Add my scripts to path
 export PATH="${SCRIPTS}:$PATH"
 
+export PATH="${SCRIPTS}/social:$PATH"
 ZSH_DISABLE_COMPFIX=true
 
 # Conda setup

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# shows only hidden folders
+ls -ld */ .*/
