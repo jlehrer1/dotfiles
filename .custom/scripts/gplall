@@ -5,4 +5,6 @@ for d in ${PROJECTS}/* ; do
 	echo "Pulling in $d"
 	git -C "$d" pull
 done
-	
+
+# and my yadm config
+yadm pull

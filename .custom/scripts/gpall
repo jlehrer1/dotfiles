@@ -1,9 +1,12 @@
 #!/bin/bash
 
-# Git pulls all my project reppos
+# Git pushes all my project reppos
 for d in ${PROJECTS}/* ; do
 	echo "Pushing in $d"
 	git -C "$d" push
 done
-	
+
+# and then my yadm config
+yadm push
+
 
