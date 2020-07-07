@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# conda env list with ability to grep easily
+if [ $# -eq 0 ]; then
+
