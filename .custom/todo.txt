@@ -1,0 +1,3 @@
+# My todo list
+
+1. Read the AppleScript guide from https://macosxautomation.com/applescript/firsttutorial/index.html

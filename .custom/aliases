@@ -37,8 +37,8 @@ alias proj="cd ${PROJECTS}"
 alias desk="cd ${HOME}/Desktop"
 alias down="cd ${HOME}/Downloads"
 alias dots="cd ${ZDOTDIR}"
-alias ideas="${EDITOR} ${SCRIPTS}/.project_ideas.txt"
-
+alias ideas="${EDITOR} ${ZDOTDIR}/project_ideas.txt"
+alias todo="${EDITOR} ${ZDOTDIR}/todo.txt"
 # aliases for conda 
 alias cl="conda list"
 alias ca="conda activate"
