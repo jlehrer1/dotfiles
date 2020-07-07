@@ -8,6 +8,9 @@
 #                                                 	#
   # # # # # # # # # # # # # # # # # # # # # # # # # 
 
+# alias vim to my editor
+alias vim="${EDITOR}"
+
 #aliases for python -- be careful here!
 alias python="python3" 
 alias pip="pip3"
@@ -21,8 +24,7 @@ alias scr="cd ${SCRIPTS}"
 alias jn="jupyter notebook"
 alias ip="ipython"
 alias c="clear"
-alias e="open -e"
-alias v="${EDITOR}"
+alias e="${EDITOR}"
 alias s="fzf"
 
 # aliases for brew

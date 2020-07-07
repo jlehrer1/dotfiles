@@ -20,7 +20,7 @@ export ALIASES="${ZDOTDIR}/aliases"
 export PROJECTS="${HOME}/Documents/Projects"
 
 # my default command line editor
-export EDITOR="vim"
+export EDITOR="nvim"
 
 # nice themes: {af-magic, wezm+, fletcherm, jreese}
 ZSH_THEME="af-magic"
