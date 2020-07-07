@@ -79,6 +79,7 @@ alias yreflog="yadm reflog"
 alias yrh="yadm reset --hard"
 alias yrs="yadm reset --soft"
 alias yr="yadm reset"
+alias yrhh="yadm reset --hard HEAD"
 alias yca="yadm commit --amend"
 alias yrm="yadm rm"
 
