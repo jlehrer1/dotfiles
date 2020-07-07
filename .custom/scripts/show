@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Shows the code of any of my scripts, like where for functions
+if [ $# -eq 0 ]; then
+	exit 1
+else
+	cat "${SCRIPTS}/$1"
+fi
