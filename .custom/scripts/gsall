@@ -2,7 +2,7 @@
 
 # gets git status of each of my projects and yadm
 for d in ${PROJECTS}/* ; do
-	echo "Status in $d"
+	echo -e "\nStatus in $d"
 	git -C "$d" status
 done
 

@@ -34,16 +34,16 @@ source "${ZSH}/oh-my-zsh.sh"
 export PATH="${HOME}/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-# for dependency related to imagemagick
-export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
-
 # source my aliases
 source "${ALIASES}"
 
 # Add my scripts to path
 export PATH="${SCRIPTS}:$PATH"
-
 export PATH="${SCRIPTS}/social:$PATH"
+
+# for dependency related to imagemagick
+export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
+
 ZSH_DISABLE_COMPFIX=true
 
 # Conda setup
