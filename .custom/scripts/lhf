@@ -2,4 +2,8 @@
 
 # shows only hidden folders
 exec 2>/dev/null
-exa -d .?*/
+if [ $# -eq 0 ]; then
+	exa -d .?*/
+else
+	exa -d .?*/ | grep --color=auto "$@"
+fi
