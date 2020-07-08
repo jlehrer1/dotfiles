@@ -22,11 +22,11 @@ export PROJECTS="${HOME}/Documents/Projects"
 # my default command line editor
 export EDITOR="nvim"
 
-# nice themes: {af-magic, wezm+, fletcherm, jreese}
+# nice themes: {af-magic, wezm+, fletcherm, jreese, typewritten, vercel}
 ZSH_THEME="af-magic"
 
 # zsh plugins
-plugins=(git)
+plugins=(git alias-finder pip)
 
 source "${ZSH}/oh-my-zsh.sh"
 
