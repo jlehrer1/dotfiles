@@ -1,0 +1,12 @@
+# My todo list
+
+1. Read the AppleScript guide from https://macosxautomation.com/applescript/firsttutorial/index.html
+
+2. Make sure AppleCare refund gets deposited (got confirmation email)
+
+3. Make GUI for quick model project
+
+4. Find a new data science project to work on
+
+
+

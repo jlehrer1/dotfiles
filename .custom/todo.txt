@@ -1,4 +1,0 @@
-# My todo list
-
-1. Read the AppleScript guide from https://macosxautomation.com/applescript/firsttutorial/index.html
-2. Make sure AppleCare refund gets deposited

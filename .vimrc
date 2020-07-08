@@ -1,4 +1,3 @@
-
 " # # # # # # # # # # # # # # # # # # # # # #
 "  _    __   ____   __  ___   ____    ______	#
 " | |  / /  /  _/  /  |/  /  / __ \  / ____/	#
@@ -33,3 +32,5 @@ set number
 "Wrap text to given number of characters
 set tw=80
 
+" Make double-<Esc> clear search highlights
+nnoremap <silent> <Esc><Esc> <Esc>:nohlsearch<CR><Esc>
