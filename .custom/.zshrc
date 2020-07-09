@@ -22,6 +22,9 @@ export PROJECTS="${HOME}/Documents/Projects"
 # my default command line editor
 export EDITOR="nvim"
 
+# my default browser
+export BROWSER="Safari"
+
 # nice themes: {af-magic, wezm+, fletcherm, jreese, typewritten, vercel}
 ZSH_THEME="af-magic"
 

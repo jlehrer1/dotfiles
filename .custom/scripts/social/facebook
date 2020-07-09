@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # opens facebook
-open -a Safari "https://www.facebook.com"
+open -a ${BROWSER} "https://www.facebook.com"
