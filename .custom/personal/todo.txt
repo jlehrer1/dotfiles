@@ -9,4 +9,4 @@
 4. Find a new data science project to work on
 
 5. Look at the reminders-cli project that I forked, simplify it a bit 
-
+	Specifically, analyze the applescripts
