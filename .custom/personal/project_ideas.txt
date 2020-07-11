@@ -5,4 +5,4 @@ A visual inventory management system:
 	- Good for small businesses with in home warehouses. They don't need a full
 		corporate suite of software, but also would like to stay relatively organized.
 
-Make a repo - "TOUCHID FOR SUDO" that has install script / uninstall script
+DONE: Make a repo - "TOUCHID FOR SUDO" that has install script / uninstall script

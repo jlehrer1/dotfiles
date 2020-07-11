@@ -39,6 +39,8 @@ alias down="cd ${HOME}/Downloads"
 alias dots="cd ${ZDOTDIR}"
 alias ideas="${EDITOR} ${ZDOTDIR}/personal/project_ideas.txt"
 alias todo="${EDITOR} ${ZDOTDIR}/personal/todo.txt"
+alias brewfile="${EDITOR} ${HOME}/.config/Brewfile"
+
 # aliases for conda 
 alias cl="conda list"
 alias ca="conda activate"
