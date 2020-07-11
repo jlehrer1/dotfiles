@@ -3,7 +3,7 @@ My configs, scripts, and functions. Commonly known as dotfiles!
 
 ## I use:
 [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) to manage my zsh config.  
-[yadm](https://github.com/TheLocehiliosan/yadm) to manage my dotfiles.
+[yadm](https://github.com/TheLocehiliosan/yadm) to manage my dotfiles.  
 [neovim](https://github.com/neovim/neovim) as my text editor (I admit, I still use VSCode for many things).
 
 To install, run
