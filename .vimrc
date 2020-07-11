@@ -30,7 +30,7 @@ set number
 "autocmd BufWritePre * :%s/\s\+$//
 
 "Wrap text to given number of characters
-set tw=80
+"set tw=80
 
 " Make double-<Esc> clear search highlights
 nnoremap <silent> <Esc><Esc> <Esc>:nohlsearch<CR><Esc>

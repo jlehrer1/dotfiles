@@ -10,3 +10,6 @@
 
 5. Look at the reminders-cli project that I forked, simplify it a bit 
 	Specifically, analyze the applescripts
+
+6. Make own cookiecutter from the DrivenData example. Just make it simpler for
+my projects. 

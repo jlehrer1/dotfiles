@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/Users/julian/Documents/Projects/cookiecutter-data-science/{{ cookiecutter.repo_name }}'
+let g:netrw_dirhist_6='/bin'
+let g:netrw_dirhist_5='/dev'
 let g:netrw_dirhist_4='/Users/julian/.oh-my-zsh/plugins/pip'
 let g:netrw_dirhist_3='/Users/julian/.oh-my-zsh/plugins/cp'
 let g:netrw_dirhist_2='/Users/julian/.oh-my-zsh/plugins/osx'
