@@ -1,6 +1,8 @@
 # Dotfiles
 My configs, scripts, and functions. Commonly known as dotfiles!
 
+These are personalized to my use, but hopefully there are some bits and pieces somewhere that are useful to you. Try digging around in `.custom/aliases` and `.custom/scripts/`. 
+
 ## I use:
 [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) to manage my zsh config.  
 [yadm](https://github.com/TheLocehiliosan/yadm) to manage my dotfiles.  
