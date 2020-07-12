@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# opens yadm .gitignore, or greps through it
+if [ $# -eq 0 ]; then
+	${EDITOR} "${HOME}/.gitignore"
+else
+	grep "$@" "${HOME}/.gitignore"
+fi

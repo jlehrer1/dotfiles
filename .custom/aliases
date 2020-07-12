@@ -75,7 +75,6 @@ alias yd="yadm diff"
 alias ydh="yadm diff HEAD"
 alias ypl="yadm pull"
 
-alias ygitignore="${EDITOR} ${HOME}/.gitignore"
 alias ylog="yadm log"
 alias yreflog="yadm reflog"
 alias yconfig="${EDITOR} ${HOME}/.config/yadm/config"
