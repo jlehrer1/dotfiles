@@ -44,6 +44,8 @@ source "${ALIASES}"
 # Add my scripts to path
 export PATH="${SCRIPTS}:$PATH"
 export PATH="${SCRIPTS}/social:$PATH"
+export PATH="${SCRIPTS}/git:$PATH"
+export PATH="${SCRIPTS}/zsh:$PATH"
 
 # for dependency related to imagemagick
 export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
