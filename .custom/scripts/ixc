@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# calls ix and copies to clipboard
+ix | pbcopy
