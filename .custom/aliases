@@ -66,6 +66,7 @@ alias tmuxconf="${EDITOR} ${HOME}/.tmux.conf"
 # aliases for yadm
 alias ya="yadm add"
 alias yaa="yadm add -A"
+alias yaf="yadm add -f"
 
 alias ys="yadm status"
 alias yc="yadm commit"
