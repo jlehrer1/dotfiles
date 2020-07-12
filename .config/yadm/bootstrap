@@ -26,6 +26,8 @@ else
 	echo -e "\033[32mrbenv installed... continuing\033[0m"
 fi
 
+pip install --user jupyter
+
 mkdir -p "${HOME}/Documents/Projects"
 cd "${HOME}/Documents/Projects"
 

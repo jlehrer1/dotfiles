@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/dev'
+let g:netrw_dirhist_9='/sbin'
+let g:netrw_dirhist_8='/.vol'
 let g:netrw_dirhist_7='/Users/julian/Documents/Projects/cookiecutter-data-science/{{ cookiecutter.repo_name }}'
 let g:netrw_dirhist_6='/bin'
 let g:netrw_dirhist_5='/dev'
