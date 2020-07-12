@@ -23,7 +23,8 @@ export PROJECTS="${HOME}/Documents/Projects"
 export EDITOR="nvim"
 
 # my default browser
-export BROWSER="Safari"
+# the $BROWSER variable cannot be used because it breaks jupyter notebooks with an esoteric error
+export SEARCH="Safari"
 
 # nice themes: {af-magic, wezm+, fletcherm, jreese, typewritten, vercel}
 ZSH_THEME="af-magic"

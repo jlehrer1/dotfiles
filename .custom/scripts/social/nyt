@@ -1,5 +1,5 @@
 #!/bin/bash
 
 # opens the new york times homepage
-open -a ${BROWSER} "https://www.nytimes.com"
+open -a ${SEARCH} "https://www.nytimes.com"
 

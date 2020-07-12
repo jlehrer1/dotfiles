@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # opens facebook
-open -a ${BROWSER} "https://www.facebook.com"
+open -a ${SEARCH} "https://www.facebook.com"
