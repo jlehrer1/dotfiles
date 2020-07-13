@@ -70,4 +70,3 @@ unset __conda_setup
 fpath+="${HOME}/opt/conda-zsh-completion"
 compinit
 
-export PATH="${HOME}/.local/bin:$PATH"

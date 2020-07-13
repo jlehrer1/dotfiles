@@ -2,7 +2,7 @@
 
 # conda env list with ability to grep easily
 if [ $# -eq 0 ]; then
-	conda env list | sed 2,2d | sed "$ d"
+	conda env list | sed 1,2d | sed "$ d"
 else
-	conda env list | sed 2,2d | sed "$ d" | grep --color=auto "$@"
+	conda env list | sed 1,2d | sed "$ d" | grep --color=auto "$@"
 fi
