@@ -61,7 +61,6 @@ alias vimrc="${EDITOR} ${HOME}/.vimrc"
 alias vimrcsource="source ${HOME}/.vimrc"
 alias ls="exa"
 alias sl="ls"
-alias tmuxconf="${EDITOR} ${HOME}/.tmux.conf"
 
 # aliases for yadm
 alias ya="yadm add"

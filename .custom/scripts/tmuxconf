@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Edits my tmux config and then sources it
+${EDITOR} "${HOME}/.tmux.conf"
+tmux source-file ~/.tmux.conf

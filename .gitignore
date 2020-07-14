@@ -14,11 +14,8 @@ Pictures/
 Public/
 Movies/
 
-# things in config
-.config
-#!/.config/yadm/
-
 # hidden files / folders
+.config
 .bash_history
 .bash_sessions
 .CFUserTextEncoding
@@ -54,3 +51,5 @@ Air-5.7.1
 .vscode
 .lesshsQ
 .vim/.netrwhist 
+.npm
+.BetterTouchTool

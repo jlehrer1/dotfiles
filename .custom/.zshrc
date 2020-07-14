@@ -30,7 +30,7 @@ export SEARCH="Safari"
 ZSH_THEME="af-magic"
 
 # zsh plugins
-plugins=(git alias-finder pip)
+plugins=(git tmux)
 
 source "${ZSH}/oh-my-zsh.sh"
 
@@ -70,3 +70,4 @@ unset __conda_setup
 fpath+="${HOME}/opt/conda-zsh-completion"
 compinit
 
+export PATH="${HOME}/Library/Python/3.8/bin:$PATH"
