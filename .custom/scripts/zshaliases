@@ -4,6 +4,6 @@
 if [ $# -eq 0 ]; then
         ${EDITOR} "${ZDOTDIR}/aliases"
 else
-        grep --color=auto "$@" "${ZDOTDIR}/aliases"
+        grep -r --color=auto "$@" "${ALIASES}"
 fi
 

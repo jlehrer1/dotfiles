@@ -39,7 +39,8 @@ export PATH="${HOME}/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 # source my aliases
-source "${ALIASES}"
+for f in $ALIASES/**/*(.); do source $f; done
+#source "${ALIASES}"
 
 # Add my scripts to path
 export PATH="${SCRIPTS}:$PATH"

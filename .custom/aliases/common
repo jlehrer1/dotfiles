@@ -52,45 +52,11 @@ alias ca="conda activate"
 alias cc="conda create"
 alias cda="conda deactivate"
 
-# aliases for git
-alias gs="git status"
-alias gpl="git pull"
-alias gdh="git diff HEAD"
-
-# aliases for git workflow
-alias gitignore="${EDITOR} .gitignore"
-alias README="${EDITOR} README.md"
-
 # aliases for common shell commands
 alias vimrc="${EDITOR} ${HOME}/.vimrc"
 alias vimrcsource="source ${HOME}/.vimrc"
 alias ls="exa"
 alias sl="ls"
-
-# aliases for yadm
-alias ya="yadm add"
-alias yaa="yadm add -A"
-alias yaf="yadm add -f"
-
-alias ys="yadm status"
-alias yc="yadm commit"
-alias yp="yadm push"
-alias yd="yadm diff"
-alias ydh="yadm diff HEAD"
-alias ypl="yadm pull"
-
-alias ylog="yadm log"
-alias yreflog="yadm reflog"
-alias yconfig="${EDITOR} ${HOME}/.config/yadm/config"
-
-alias yrh="yadm reset --hard"
-alias yrs="yadm reset --soft"
-alias yr="yadm reset"
-alias yrhh="yadm reset --hard HEAD"
-alias yca="yadm commit --amend"
-alias yrm="yadm rm"
-
-alias ystrap="${EDITOR} ${HOME}/.config/yadm/bootstrap"
 
 # aliases for system 
 alias ram="top -l 1 -s 0 | grep PhysMem"
