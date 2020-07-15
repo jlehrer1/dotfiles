@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Sets up current directory as pip package and upgrade installs it for testing
+python3 setup.py sdist
+pip install --upgrade .

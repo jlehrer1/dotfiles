@@ -15,6 +15,10 @@ alias vim="${EDITOR}"
 alias python="python3" 
 alias pip="pip3"
 
+#aliases for pip
+alias pi="pip install"
+alias piup="pip install --upgrade"
+
 #aliases for zsh
 alias zshsource="source ${ZDOTDIR}/.zshrc"
 alias zshenv="${EDITOR} ${HOME}/.zshenv"
@@ -26,6 +30,7 @@ alias ip="ipython"
 alias c="clear"
 alias e="${EDITOR}"
 alias s="fzf"
+alias rmrf="rm -rf"
 
 # aliases for brew
 alias bi="brew info"
