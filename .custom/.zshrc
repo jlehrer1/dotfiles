@@ -40,13 +40,9 @@ eval "$(rbenv init -)"
 
 # source my aliases
 for f in $ALIASES/**/*(.); do source $f; done
-#source "${ALIASES}"
 
 # Add my scripts to path
-export PATH="${SCRIPTS}:$PATH"
-export PATH="${SCRIPTS}/social:$PATH"
-export PATH="${SCRIPTS}/git:$PATH"
-export PATH="${SCRIPTS}/zsh:$PATH"
+for f in ${SCRIPTS}/**/*(.); do export PATH="$f:$PATH"; done
 
 # for dependency related to imagemagick
 export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"

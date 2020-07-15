@@ -3,11 +3,16 @@ alias g='git'
 
 alias ga='git add'
 alias gaa='git add --all'
+
 alias gc='git commit -v'
 alias gc!='git commit -v --amend'
+
 alias gcl='git clone --recurse-submodules'
+
 alias gd='git diff'
 alias gdca='git diff --cached'
+alias gdh="git diff HEAD"
+
 alias gf='git fetch'
 alias gfa='git fetch --all --prune'
 alias gfo='git fetch origin'
@@ -18,11 +23,11 @@ alias gpd='git push --dry-run'
 alias grev='git revert'
 alias grh='git reset'
 alias grhh='git reset --hard'
+
 alias grm='git rm'
 
 alias gs="git status"
 alias gpl="git pull"
-alias gdh="git diff HEAD"
 
 alias gitignore="${EDITOR} .gitignore"
 

@@ -22,6 +22,7 @@ alias piup="pip install --upgrade"
 #aliases for zsh
 alias zshsource="source ${ZDOTDIR}/.zshrc"
 alias zshenv="${EDITOR} ${HOME}/.zshenv"
+alias als="cd ${ALIASES}"
 alias scr="cd ${SCRIPTS}"
 
 # convienence aliases -- makes workflow faster
