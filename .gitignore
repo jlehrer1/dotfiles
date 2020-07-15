@@ -1,6 +1,10 @@
 # macOS specific
 .DS_Store
 
+# personal files
+todo.txt
+project_ideas.txt
+
 # default macOS folders
 Applications/
 Desktop/
@@ -53,3 +57,4 @@ Air-5.7.1
 .vim/.netrwhist 
 .npm
 .BetterTouchTool
+
