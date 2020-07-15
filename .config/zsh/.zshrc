@@ -10,11 +10,14 @@
 # Path to your oh-my-zsh installation.
 export ZSH="${HOME}/.oh-my-zsh"
 
+# Path to my main dotfiles folder
+export DOTS="${HOME}/.custom"
+
 # path to my scripts / functions (working on converting to scripts)
-export SCRIPTS="${ZDOTDIR}/scripts"
+export SCRIPTS="${DOTS}/scripts"
 
 # path to my aliases
-export ALIASES="${ZDOTDIR}/aliases"
+export ALIASES="${DOTS}/aliases"
 
 # path to my projects folder
 export PROJECTS="${HOME}/Documents/Projects"
@@ -43,6 +46,7 @@ for f in $ALIASES/**/*(.); do source $f; done
 
 # Add my scripts to path
 export PATH="${SCRIPTS}:$PATH"
+
 # and each subfolder in scripts/
 for f in ${SCRIPTS}/*/; do export PATH="$f:$PATH"; done
 

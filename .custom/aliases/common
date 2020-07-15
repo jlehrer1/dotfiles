@@ -42,9 +42,9 @@ alias bis="brew install"
 alias proj="cd ${PROJECTS}"
 alias desk="cd ${HOME}/Desktop"
 alias down="cd ${HOME}/Downloads"
-alias dots="cd ${ZDOTDIR}"
-alias ideas="${EDITOR} ${ZDOTDIR}/personal/project_ideas.txt"
-alias todo="${EDITOR} ${ZDOTDIR}/personal/todo.txt"
+alias dots="cd ${DOTS}"
+alias ideas="${EDITOR} ${DOTS}/personal/project_ideas.txt"
+alias todo="${EDITOR} ${DOTS}/personal/todo.txt"
 alias brewfile="${EDITOR} ${HOME}/.config/Brewfile"
 
 # aliases for conda 

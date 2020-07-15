@@ -1,2 +1,2 @@
 # path to where zsh looks for .zshrc
-export ZDOTDIR="${HOME}/.custom"
+export ZDOTDIR="${HOME}/.config/zsh"
