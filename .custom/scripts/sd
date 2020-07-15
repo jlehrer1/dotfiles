@@ -3,4 +3,4 @@
 # Recursively searches all files, including hidden, in the
 # current directory
 
-find . | cut -c3- | fzf
+find . | cut -c3- | fzf | pbcopy
