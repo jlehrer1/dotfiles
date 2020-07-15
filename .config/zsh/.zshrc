@@ -7,7 +7,7 @@
 #															#
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-# Path to your oh-my-zsh installation.
+# Path to my oh-my-zsh installation.
 export ZSH="${HOME}/.oh-my-zsh"
 
 # Path to my main dotfiles folder
@@ -33,13 +33,9 @@ export SEARCH="Safari"
 ZSH_THEME="af-magic"
 
 # zsh plugins
-plugins=(git tmux)
+plugins=(tmux)
 
 source "${ZSH}/oh-my-zsh.sh"
-
-# for iStats (ruby gem)
-export PATH="${HOME}/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
 
 # source my aliases
 for f in $ALIASES/**/*(.); do source $f; done
@@ -53,6 +49,7 @@ for f in ${SCRIPTS}/*/; do export PATH="$f:$PATH"; done
 # for dependency related to imagemagick
 export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
 
+# for fixing Catalina error
 ZSH_DISABLE_COMPFIX=true
 
 # Conda setup
@@ -74,3 +71,7 @@ fpath+="${HOME}/opt/conda-zsh-completion"
 compinit
 
 export PATH="${HOME}/Library/Python/3.8/bin:$PATH"
+
+# for iStats (ruby gem)
+export PATH="${HOME}/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
