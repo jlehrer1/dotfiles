@@ -7,4 +7,5 @@ for d in ${PROJECTS}/* ; do
 done
 
 # and my yadm config
+echo "Pulling in yadm"
 yadm pull

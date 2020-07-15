@@ -26,9 +26,6 @@ set smarttab
 "Show line numbers"
 set number
 
-"Remove whitespace at end of lines
-"autocmd BufWritePre * :%s/\s\+$//
-
 "Wrap text to given number of characters
 "set tw=80
 
