@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # opens my dotfile repo in my browser
 open -a ${SEARCH} "https://github.com/jlehrer1/dotfiles"

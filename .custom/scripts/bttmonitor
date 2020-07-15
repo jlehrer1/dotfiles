@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # prints the system stats for BetterTouchTool
 n=$(top -l 1 | grep BetterTouch | cut -d' ' -f1 | awk '{print "-pid"} $0' | xargs)

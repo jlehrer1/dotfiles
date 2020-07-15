@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Prints all brew packages and their total file sizes, or performs the operation
 # and passes into grep if specified

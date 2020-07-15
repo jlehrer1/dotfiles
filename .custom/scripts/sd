@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Recursively searches all files, including hidden, in the
 # current directory

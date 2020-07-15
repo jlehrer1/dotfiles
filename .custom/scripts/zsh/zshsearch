@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # searches recursively in my zsh config and zsh install folder for the regex pattern
 # useful for finding aliases

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # opens current git repo in Safari
 # -m opens the base link of the repo

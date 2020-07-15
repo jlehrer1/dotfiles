@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # gets git status of each of my projects and yadm
 for d in ${PROJECTS}/* ; do

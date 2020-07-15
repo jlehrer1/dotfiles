@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Prints the stderr of a function if it exists, else prints nothing
 echo "$@"

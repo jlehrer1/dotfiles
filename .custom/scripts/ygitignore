@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # opens yadm .gitignore, or greps through it
 if [ $# -eq 0 ]; then

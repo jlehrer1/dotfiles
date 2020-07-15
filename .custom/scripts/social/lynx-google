@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Opens a lynx browser searching any terms that follow the name of this script
 
 url="https://www.google.com/search?q="

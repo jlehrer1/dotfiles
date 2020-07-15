@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # prints my fan speed
 istats fan --no-labels | tail -1

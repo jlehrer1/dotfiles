@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # opens the new york times homepage
 open -a ${SEARCH} "https://www.nytimes.com"

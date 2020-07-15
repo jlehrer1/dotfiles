@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Git pulls all my project reppos
 for d in ${PROJECTS}/* ; do

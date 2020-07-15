@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # opens safari with the given search term or website. 
 # TODO: Better website url checking

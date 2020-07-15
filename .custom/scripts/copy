@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # copies the output of the following command to clipboard
 out=$($1)
