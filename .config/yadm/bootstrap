@@ -44,4 +44,17 @@ git clone https://github.com/jlehrer1/personal-website.git
 
 cd "${OLDPWD}"
 
+echo -e "\033[32mInstalling required latex extensions for vscode compatability...\033[0m"
+
+sudo tlmgr update --self
+sudo tlmgr update --all
+
+sudo tlmgr install latexmk
+sudo tlmgr install latexindent
+sudo tlmgr install synctext
+sudo tlmgr install chktex
+sudo tlmgr install texcount
+
+echo -e "\033[32mFinished installing latex and extensions...\033[0m"
+
 echo "\033[32mFinished basic setup... please restart Terminal\033[0m"
