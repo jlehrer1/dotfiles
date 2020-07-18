@@ -25,7 +25,7 @@ alias grh='git reset'
 alias grhh='git reset --hard'
 
 alias grm='git rm'
-alias grmc='git rm --cached'
+alias grmc='git rm --cached -r'
 
 alias gs="git status"
 alias gpl="git pull"

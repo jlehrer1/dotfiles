@@ -23,7 +23,7 @@ alias yrhh="yadm reset --hard HEAD"
 alias yca="yadm commit --amend"
 
 alias yrm="yadm rm"
-alias yrmc="yadm rm --cached"
+alias yrmc="yadm rm --cached -r"
 
 alias ystrap="${EDITOR} ${HOME}/.config/yadm/bootstrap"
 
