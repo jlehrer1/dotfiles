@@ -29,6 +29,9 @@ export EDITOR="nvim"
 # the $BROWSER variable cannot be used because it breaks jupyter notebooks with an esoteric error
 export SEARCH="Safari"
 
+# Path for go packages 
+export GOPATH="$HOME/go"
+
 # nice themes: {af-magic, wezm+, fletcherm, jreese, typewritten, vercel}
 ZSH_THEME="af-magic"
 
@@ -40,11 +43,11 @@ source "${ZSH}/oh-my-zsh.sh"
 # source my aliases
 for f in $ALIASES/**/*(.); do source $f; done
 
-# Add my scripts to path
-export PATH="${SCRIPTS}:$PATH"
-
 # and each subfolder in scripts/
 for f in ${SCRIPTS}/*/; do export PATH="$f:$PATH"; done
+
+# source my custom path
+source "${DOTS}/path"
 
 # for dependency related to imagemagick
 export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
@@ -70,11 +73,5 @@ unset __conda_setup
 fpath+="${HOME}/opt/conda-zsh-completion"
 compinit
 
-export PATH="${HOME}/Library/Python/3.8/bin:$PATH"
-export PATH="${HOME}/.local/bin:$PATH"
-export GOPATH="$HOME/go"
-export PATH="$GOPATH/bin:$PATH"
-
 # for iStats (ruby gem)
-export PATH="${HOME}/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"

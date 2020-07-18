@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# All custom things that need to be added to my path should go in this file
+# to edit it, run "path"
+export PATH="\
+${SCRIPTS}:\ 
+${HOME}/Library/Python/3.8/bin:\ 
+${HOME}/.local/bin:\ 
+${GOPATH}/bin:\ 
+${HOME}/.rbenv/bin:\ 
+${PATH}"
