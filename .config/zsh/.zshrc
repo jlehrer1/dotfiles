@@ -71,6 +71,9 @@ fpath+="${HOME}/opt/conda-zsh-completion"
 compinit
 
 export PATH="${HOME}/Library/Python/3.8/bin:$PATH"
+export PATH="${HOME}/.local/bin:$PATH"
+export GOPATH="$HOME/go"
+export PATH="$GOPATH/bin:$PATH"
 
 # for iStats (ruby gem)
 export PATH="${HOME}/.rbenv/bin:$PATH"

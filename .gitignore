@@ -18,6 +18,9 @@ Pictures/
 Public/
 Movies/
 
+# other folders
+go/
+
 # hidden files / folders
 .config
 .bash_history

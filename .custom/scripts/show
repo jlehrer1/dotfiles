@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 # Shows the code of any of my scripts, like where for functions
-cat "${SCRIPTS}/$1" 2> /dev/null || echo "Error: not a script"
+find "${SCRIPTS}" -name "$1" -exec cat {} \;
