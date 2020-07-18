@@ -5,7 +5,7 @@ alias ya="yadm add"
 alias yaa="yadm add -A"
 alias yaf="yadm add -f"
 
-alias ys="yadm status"
+alias ys="yadm status -u"
 alias yc="yadm commit"
 alias yp="yadm push"
 alias yd="yadm diff"
@@ -21,7 +21,9 @@ alias yrs="yadm reset --soft"
 alias yr="yadm reset"
 alias yrhh="yadm reset --hard HEAD"
 alias yca="yadm commit --amend"
+
 alias yrm="yadm rm"
+alias yrmc="yadm rm --cached"
 
 alias ystrap="${EDITOR} ${HOME}/.config/yadm/bootstrap"
 
