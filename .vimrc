@@ -26,8 +26,13 @@ set smarttab
 "Show line numbers"
 set number
 
-"Wrap text to given number of characters
-"set tw=80
-
 " Make double-<Esc> clear search highlights
 nnoremap <silent> <Esc><Esc> <Esc>:nohlsearch<CR><Esc>
+
+fun! TrimWhitespace()
+    let l:save = winsaveview()
+    keeppatterns %s/\s\+$//e
+    call winrestview(l:save)
+endfun
+
+command! TrimWhitespace call TrimWhitespace()

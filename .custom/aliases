@@ -62,3 +62,70 @@ alias sl="ls"
 # aliases for system 
 alias ram="top -l 1 -s 0 | grep PhysMem"
 alias monitor='open -a "Activity Monitor"'
+
+# aliases for git
+alias g="git"
+
+alias ga="git add"
+alias gaa="git add --all"
+
+alias gc="git commit -v"
+alias gc!="git commit -v --amend"
+
+alias gcl="git clone --recurse-submodules"
+
+alias gd="git diff"
+alias gdc="git diff --cached"
+alias gdh="git diff HEAD"
+
+alias gf="git fetch"
+alias gfa="git fetch --all --prune"
+alias gfo="git fetch origin"
+
+alias gp="git push"
+alias gpd="git push --dry-run"
+
+alias grev="git revert"
+alias grh="git reset"
+alias grhh="git reset --hard"
+
+alias grm="git rm"
+alias grmc="git rm --cached -r"
+
+alias gs="git status"
+alias gpl="git pull"
+
+alias grb="git rebase -i"
+alias grb2="git rebase -i HEAD~2"
+alias grb3="git rebase -i HEAD~3"
+alias grb3="git rebase -i HEAD~4"
+
+alias gitignore="${EDITOR} .gitignore"
+
+# aliases for yadm
+alias ya="yadm add"
+alias yaa="yadm add -A"
+alias yaf="yadm add -f"
+
+alias ys="yadm status -u"
+alias yc="yadm commit"
+alias yp="yadm push"
+alias yd="yadm diff"
+alias ydh="yadm diff HEAD"
+alias ypl="yadm pull"
+
+alias ylog="yadm log"
+alias yreflog="yadm reflog"
+alias yconfig="${EDITOR} ${HOME}/.config/yadm/config"
+
+alias yrh="yadm reset --hard"
+alias yrs="yadm reset --soft"
+alias yr="yadm reset"
+alias yrhh="yadm reset --hard HEAD"
+alias yca="yadm commit --amend"
+
+alias yrm="yadm rm"
+alias yrmc="yadm rm --cached -r"
+
+alias ystrap="${EDITOR} ${HOME}/.config/yadm/bootstrap"
+

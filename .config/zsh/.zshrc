@@ -41,7 +41,7 @@ plugins=(tmux)
 source "${ZSH}/oh-my-zsh.sh"
 
 # source my aliases
-for f in $ALIASES/**/*(.); do source $f; done
+source "${DOTS}/aliases"
 
 # and each subfolder in scripts/
 for f in ${SCRIPTS}/*/; do export PATH="$f:$PATH"; done
