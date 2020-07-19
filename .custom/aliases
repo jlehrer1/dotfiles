@@ -15,11 +15,11 @@ alias vim="${EDITOR}"
 alias python="python3" 
 alias pip="pip3"
 
-#aliases for pip
+# -- aliases for pip --
 alias pi="pip install"
 alias piup="pip install --upgrade"
 
-#aliases for zsh
+# -- aliases for zsh --
 alias zshsource="source ${ZDOTDIR}/.zshrc"
 alias zshenv="${EDITOR} ${HOME}/.zshenv"
 alias als="cd ${ALIASES}"
@@ -33,7 +33,7 @@ alias e="${EDITOR}"
 alias s="fzf"
 alias rmrf="rm -rf"
 
-# aliases for brew
+# -- aliases for brew --
 alias bi="brew info"
 alias bcl="brew cask list"
 alias bis="brew install"
@@ -47,7 +47,7 @@ alias ideas="${EDITOR} ${DOTS}/personal/project_ideas.txt"
 alias todo="${EDITOR} ${DOTS}/personal/todo.txt"
 alias brewfile="${EDITOR} ${HOME}/.config/Brewfile"
 
-# aliases for conda 
+# -- aliases for conda --
 alias cl="conda list"
 alias ca="conda activate"
 alias cc="conda create"
@@ -63,7 +63,7 @@ alias sl="ls"
 alias ram="top -l 1 -s 0 | grep PhysMem"
 alias monitor='open -a "Activity Monitor"'
 
-# aliases for git
+# -- aliases for git --
 alias g="git"
 
 alias ga="git add"
@@ -105,7 +105,7 @@ alias grlg="git reflog"
 
 alias gitignore="${EDITOR} .gitignore"
 
-# aliases for yadm
+# -- aliases for yadm --
 alias ya="yadm add"
 alias yaa="yadm add -A"
 alias yaf="yadm add -f"
