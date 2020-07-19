@@ -59,7 +59,7 @@ alias vimrcsource="source ${HOME}/.vimrc"
 alias ls="exa"
 alias sl="ls"
 
-# aliases for system 
+# -- aliases for system -- 
 alias ram="top -l 1 -s 0 | grep PhysMem"
 alias monitor='open -a "Activity Monitor"'
 
@@ -112,6 +112,7 @@ alias yaf="yadm add -f"
 
 alias ys="yadm status -u"
 alias yc="yadm commit"
+alias yca="yadm commit --amend"
 alias yp="yadm push"
 alias yd="yadm diff"
 alias ydh="yadm diff HEAD"
@@ -125,7 +126,6 @@ alias yrh="yadm reset --hard"
 alias yrs="yadm reset --soft"
 alias yr="yadm reset"
 alias yrhh="yadm reset --hard HEAD"
-alias yca="yadm commit --amend"
 
 alias yrm="yadm rm"
 alias yrmc="yadm rm --cached -r"

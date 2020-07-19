@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # All custom things that need to be added to my path should go in this file
-# to edit it, run "path"
+# to edit it, run "epath"
 export PATH="\
 ${SCRIPTS}:\
 ${HOME}/Library/Python/3.8/bin:\

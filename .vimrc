@@ -37,3 +37,9 @@ fun! TrimWhitespace()
 endfun
 
 command! TrimWhitespace call TrimWhitespace()
+
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
