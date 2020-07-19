@@ -57,4 +57,7 @@ sudo tlmgr install texcount
 
 echo -e "\033[32mFinished installing latex and extensions...\033[0m"
 
+echo -e "\033[32mInstalling gem dependencies...\033[0m"                
+gem install --user-install bundler jekyll
+
 echo "\033[32mFinished basic setup... please restart Terminal\033[0m"

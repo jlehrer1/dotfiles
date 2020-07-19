@@ -136,3 +136,5 @@ alias yrb4="yadm rebase -i HEAD~4"
 
 alias ystrap="${EDITOR} ${HOME}/.config/yadm/bootstrap"
 
+# -- aliases for jekyll --
+alias jks="bundle exec jekyll serve -l -o"
