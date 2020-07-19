@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+# edits my custom path file
+${EDITOR} "${DOTS}/path"

@@ -26,7 +26,6 @@ export PROJECTS="${HOME}/Documents/Projects"
 export EDITOR="nvim"
 
 # my default browser
-# the $BROWSER variable cannot be used because it breaks jupyter notebooks with an esoteric error
 export SEARCH="Safari"
 
 # Path for go packages 
@@ -40,14 +39,14 @@ plugins=(tmux)
 
 source "${ZSH}/oh-my-zsh.sh"
 
+# source my custom path
+source "${DOTS}/path"
+
 # source my aliases
 source "${DOTS}/aliases"
 
 # and each subfolder in scripts/
 for f in ${SCRIPTS}/*/; do export PATH="$f:$PATH"; done
-
-# source my custom path
-source "${DOTS}/path"
 
 # for dependency related to imagemagick
 export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
