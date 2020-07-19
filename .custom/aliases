@@ -130,5 +130,9 @@ alias yca="yadm commit --amend"
 alias yrm="yadm rm"
 alias yrmc="yadm rm --cached -r"
 
+alias yrb2="yadm rebase -i HEAD~2"
+alias yrb3="yadm rebase -i HEAD~3"
+alias yrb4="yadm rebase -i HEAD~4"
+
 alias ystrap="${EDITOR} ${HOME}/.config/yadm/bootstrap"
 
