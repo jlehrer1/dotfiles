@@ -83,7 +83,7 @@ alias gfa="git fetch --all --prune"
 alias gfo="git fetch origin"
 
 alias gp="git push"
-alias gpd="git push --dry-run"
+alias gpf="git push -f"
 
 alias grev="git revert"
 alias grh="git reset"
@@ -99,6 +99,9 @@ alias grb="git rebase -i"
 alias grb2="git rebase -i HEAD~2"
 alias grb3="git rebase -i HEAD~3"
 alias grb3="git rebase -i HEAD~4"
+
+alias glg="git log"
+alias grlg="git reflog"
 
 alias gitignore="${EDITOR} .gitignore"
 

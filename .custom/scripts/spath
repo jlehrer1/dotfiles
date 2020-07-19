@@ -1,9 +1,0 @@
-#!/bin/zsh
-
-# Displays path in a human readable format, and greps argument
-humanpath=$(echo $PATH | tr ':' '\n')
-if [ $# -eq 0 ]; then
-	echo $humanpath
-else
-	echo $humanpath | grep --color=auto "$@"
-fi
