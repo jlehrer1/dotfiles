@@ -26,6 +26,9 @@ set smarttab
 "Show line numbers"
 set number
 
+" Dont highlight parenthesis
+let g:loaded_matchparen=1
+
 " Make double-<Esc> clear search highlights
 nnoremap <silent> <Esc><Esc> <Esc>:nohlsearch<CR><Esc>
 

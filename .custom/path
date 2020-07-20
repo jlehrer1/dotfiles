@@ -6,6 +6,7 @@ export PATH="\
 ${SCRIPTS}:\
 ${HOME}/Library/Python/3.8/bin:\
 ${HOME}/.local/bin:\
+${HOME}/.local/lib/python3.7/site-packages:\
 ${GOPATH}/bin:\
 ${HOME}/.rbenv/bin:\
 ${PATH}"

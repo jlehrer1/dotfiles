@@ -26,7 +26,7 @@ alias als="cd ${ALIASES}"
 alias scr="cd ${SCRIPTS}"
 
 # convienence aliases -- makes workflow faster
-alias jn="jupyter notebook"
+alias jn="${HOME}/opt/miniconda3/bin/jupyter notebook"
 alias ip="ipython"
 alias c="clear"
 alias e="${EDITOR}"
@@ -48,7 +48,6 @@ alias todo="${EDITOR} ${DOTS}/personal/todo.txt"
 alias brewfile="${EDITOR} ${HOME}/.config/Brewfile"
 
 # -- aliases for conda --
-alias cl="conda list"
 alias ca="conda activate"
 alias cc="conda create"
 alias cda="conda deactivate"

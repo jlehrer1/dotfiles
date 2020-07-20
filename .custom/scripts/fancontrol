@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+n=$(osx-cpu-temp)
+temp=$(echo "${n%%.*}")
+
+if (( temp > 40)); then
+osascript <<END
+tell application "System Events"
+    tell (first application process whose bundle identifier is "com.crystalidea.macsfancontrol")
+        tell menu bar item 1 of menu bar 1
+            click
+            click menu item "Show all" of menu 1
+        end tell
+    end tell
+end tell
+END
+else
+	echo "todo"
+fi
