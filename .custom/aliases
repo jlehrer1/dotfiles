@@ -32,7 +32,7 @@ alias c="clear"
 alias e="${EDITOR}"
 alias s="fzf"
 alias rmrf="rm -rf"
-
+alias te="open -a TextEdit"
 # -- aliases for brew --
 alias bi="brew info"
 alias bcl="brew cask list"
@@ -43,8 +43,7 @@ alias proj="cd ${PROJECTS}"
 alias desk="cd ${HOME}/Desktop"
 alias down="cd ${HOME}/Downloads"
 alias dots="cd ${DOTS}"
-alias ideas="${EDITOR} ${DOTS}/personal/project_ideas.txt"
-alias todo="${EDITOR} ${DOTS}/personal/todo.txt"
+alias todo="${EDITOR} ${DOTS}/todo.txt"
 alias brewfile="${EDITOR} ${HOME}/.config/Brewfile"
 
 # -- aliases for conda --
@@ -100,7 +99,7 @@ alias grb2="git rebase -i HEAD~2"
 alias grb3="git rebase -i HEAD~3"
 alias grb3="git rebase -i HEAD~4"
 
-alias glg="git log"
+alias glg="git log --graph"
 alias grlg="git reflog"
 
 alias gitignore="${EDITOR} .gitignore"
@@ -118,7 +117,7 @@ alias yd="yadm diff"
 alias ydh="yadm diff HEAD"
 alias ypl="yadm pull"
 
-alias ylg="yadm log"
+alias ylg="yadm log --graph"
 alias yreflog="yadm reflog"
 alias yconfig="${EDITOR} ${HOME}/.config/yadm/config"
 
