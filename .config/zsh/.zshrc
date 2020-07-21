@@ -45,9 +45,6 @@ source "${DOTS}/path"
 # source my aliases
 source "${DOTS}/aliases"
 
-# and each subfolder in scripts/
-for f in ${SCRIPTS}/*/; do export PATH="$f:$PATH"; done
-
 # for dependency related to imagemagick
 export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
 

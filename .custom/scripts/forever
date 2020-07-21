@@ -1,4 +1,10 @@
 #!/bin/zsh
 
-$@
-while sleep 0.1; do $@; done
+if [ -x "$(command -v $@)" ]; then
+	$@
+	while sleep 0.1; 
+		do "$@" 2>/dev/null;
+	done
+else 
+	echo "Error: command not found"
+fi

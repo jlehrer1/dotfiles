@@ -2,6 +2,8 @@
 
 # All custom things that need to be added to my path should go in this file
 # to edit it, run "epath"
+for f in ${SCRIPTS}/*/; do export PATH="$f:$PATH"; done
+
 export PATH="\
 ${SCRIPTS}:\
 ${HOME}/Library/Python/3.8/bin:\
