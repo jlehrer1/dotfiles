@@ -12,5 +12,6 @@ ${HOME}/.local/lib/python3.7/site-packages:\
 ${GOPATH}/bin:\
 ${HOME}/.rbenv/bin:\
 /usr/local/sbin:\
+${HOME}/.gem/ruby/2.7.0/bin:\
 ${PATH}"
 

@@ -44,7 +44,7 @@ git clone https://github.com/jlehrer1/personal-website.git
 
 cd "${OLDPWD}"
 
-echo -e "\033[32mInstalling required latex extensions for vscode compatability...\033[0m"
+echo -e "\033[32mInstalling required latex extensions for vscode compatability, your password will be required...\033[0m"
 
 sudo tlmgr update --self
 sudo tlmgr update --all
