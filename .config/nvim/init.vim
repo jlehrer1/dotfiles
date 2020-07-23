@@ -1,21 +1,3 @@
-" auto-install vim-plug
-if empty(glob('~/.config/nvim/autoload/plug.vim'))
-  silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  autocmd VimEnter * PlugInstall
-endif
-
-" Put list of plugins in between these two
-call plug#begin('~/.config/nvim/plugged')
-Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
-Plug 'junegunn/goyo.vim'
-call plug#end()
-
-" Automatically install missing plugins
-autocmd VimEnter *
-  \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
-  \|   PlugInstall --sync | q
-  \| endif
-
 " # # # # # # # # # # # # # # # # # # # # # #
 "  _    __   ____   __  ___   ____    ______	#
 " | |  / /  /  _/  /  |/  /  / __ \  / ____/	#
@@ -24,7 +6,7 @@ autocmd VimEnter *
 " |___/  /___/  /_/  /_/  /_/ |_|  \____/   	#
 " # # # # # # # # # # # # # # # # # # # # # #
 
-" A place for all of my vim settings
+" A place for all of my neovim settings
 
 "Sets tabs to 4 instead of 8 spaces"
 set ts=4 sw=4
@@ -59,9 +41,30 @@ endfun
 
 command! TrimWhitespace call TrimWhitespace()
 
+" Disable arrow keys in non-insert mode
+" And force myself to use the home row
 noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 
+" auto-install vim-plug if not installed
+if empty(glob('~/.config/nvim/autoload/plug.vim'))
+  silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall
+endif
+
+" Put list of plugins in between these two
+call plug#begin('~/.config/nvim/plugged')
+
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+Plug 'junegunn/goyo.vim'
+
+call plug#end()
+
+" Automatically install missing plugins
+autocmd VimEnter *
+  \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+  \|   PlugInstall --sync | q
+  \| endif
 
