@@ -53,6 +53,7 @@ alias cda="conda deactivate"
 
 # aliases for common shell commands
 alias vimrc="${EDITOR} ${HOME}/.vimrc"
+alias nvimrc="${EDITOR} ${HOME}/.config/nvim/init.vim"
 alias vimrcsource="source ${HOME}/.vimrc"
 alias ls="exa"
 alias sl="ls"
