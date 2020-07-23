@@ -8,6 +8,9 @@
 
 " A place for all of my neovim settings
 
+" Remaps leader (\) to ,
+let mapleader=","
+
 "Sets tabs to 4 instead of 8 spaces"
 set ts=4 sw=4
 
@@ -59,6 +62,8 @@ call plug#begin('~/.config/nvim/plugged')
 
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'junegunn/goyo.vim'
+Plug 'preservim/nerdcommenter'
+Plug 'preservim/nerdtree'
 
 call plug#end()
 
