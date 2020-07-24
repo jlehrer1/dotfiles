@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-# opens Slack
-open -a Slack
-

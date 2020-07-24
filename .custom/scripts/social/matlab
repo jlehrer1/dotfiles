@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-
-# opens the given file in Matlab
-open -a "Matlab" "$@"

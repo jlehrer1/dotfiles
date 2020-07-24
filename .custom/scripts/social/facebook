@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-
-# opens facebook
-open -a ${SEARCH} "https://www.facebook.com"

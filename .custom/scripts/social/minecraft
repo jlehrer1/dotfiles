@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-
-# opens minecraft
-open -a Minecraft

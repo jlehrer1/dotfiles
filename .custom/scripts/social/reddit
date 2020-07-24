@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-# opens reddit homepage
-# TODO: Add ability to go to subreddit
-open -a ${SEARCH} "https://www.reddit.com"
-
