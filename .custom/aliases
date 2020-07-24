@@ -33,6 +33,7 @@ alias c="clear"
 alias e="${EDITOR}"
 alias s="fzf"
 alias rmrf="rm -rf"
+alias browser="open -a \"${SEARCH}\""
 alias te="open -a TextEdit"
 
 # -- aliases for brew --

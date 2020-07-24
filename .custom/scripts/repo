@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# opens current git repo in Safari
+# opens current git repo in $SEARCH
 # -m opens the base link of the repo
 # -mm opens the homepage to my git account. works while not in repo
 # Figure out github repo base URL
@@ -9,7 +9,7 @@ base_url=$(git config --get remote.origin.url)
 base_url=${base_url%\.git} # remove .git from end of string
 
 if [[ $1 == '-mm' ]]; then
-	open "https://github.com/jlehrer1"
+	open -a "${SEARCH}" "https://github.com/jlehrer1"
 	exit 0
 fi
 
@@ -20,7 +20,7 @@ if ! git branch 2>/dev/null 1>&2 ; then
 fi
 
 if [[ $1 == '-m' ]]; then 
-	open $base_url
+	open -a "${SEARCH} "$base_url
 	exit 0
 fi
 
@@ -62,4 +62,4 @@ url="$base_url/$tree/$branch$relative_path"
 
 echo "Calling $(type open) for $url"
 
-open "$url" &> /dev/null || (echo "Using $(type open) to open URL failed." && exit 1);
+open -a "${SEARCH}" "$url" &> /dev/null || (echo "Using $(type open) to open URL failed." && exit 1);
