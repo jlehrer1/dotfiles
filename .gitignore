@@ -21,6 +21,7 @@ Movies/
 go/
 
 # hidden files / folders
+.ipynb_checkpoints
 .config
 .bash_history
 .bash_sessions
@@ -63,3 +64,4 @@ Air-5.7.1
 .bundle
 .cisco
 .tldrc
+VirtualBox*
