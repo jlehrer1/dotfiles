@@ -26,7 +26,7 @@ export PROJECTS="${HOME}/Documents/Projects"
 export EDITOR="nvim"
 
 # my default browser
-export SEARCH="Safari"
+export SEARCH="Safari Technology Preview"
 
 # Path for go packages 
 export GOPATH="$HOME/go"

@@ -27,12 +27,14 @@ alias scr="cd ${SCRIPTS}"
 
 # convienence aliases -- makes workflow faster
 alias jn="${HOME}/opt/miniconda3/bin/jupyter notebook"
+alias jnconfig="${EDITOR} ${HOME}/.jupyter/jupyter_notebook_config.py"
 alias ip="ipython"
 alias c="clear"
 alias e="${EDITOR}"
 alias s="fzf"
 alias rmrf="rm -rf"
 alias te="open -a TextEdit"
+
 # -- aliases for brew --
 alias bi="brew info"
 alias bcl="brew cask list"
