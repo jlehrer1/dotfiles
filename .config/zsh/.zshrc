@@ -71,3 +71,4 @@ compinit
 
 # for iStats (ruby gem)
 eval "$(rbenv init -)"
+
