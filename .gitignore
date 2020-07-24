@@ -30,7 +30,7 @@ go/
 .gitconfig
 .gnupg
 .ipython
-.jupyter
+.jupyter/migrated
 .keras
 .lesshst
 .local
