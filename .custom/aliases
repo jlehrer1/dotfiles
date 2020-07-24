@@ -25,9 +25,12 @@ alias zshenv="${EDITOR} ${HOME}/.zshenv"
 alias als="cd ${ALIASES}"
 alias scr="cd ${SCRIPTS}"
 
-# convienence aliases -- makes workflow faster
+# -- aliases for jupyter --
+alias jupyter="${HOME}/opt/miniconda3/bin/jupyter"
 alias jn="${HOME}/opt/miniconda3/bin/jupyter notebook"
 alias jnconfig="${EDITOR} ${HOME}/.jupyter/jupyter_notebook_config.py"
+
+# convienence aliases -- makes workflow faster
 alias ip="ipython"
 alias c="clear"
 alias e="${EDITOR}"
