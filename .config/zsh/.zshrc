@@ -26,10 +26,13 @@ export PROJECTS="${HOME}/Documents/Projects"
 export EDITOR="nvim"
 
 # my default browser
-export SEARCH="Safari"
+export SEARCH="Safari Technology Preview"
 
 # Path for go packages 
 export GOPATH="$HOME/go"
+
+# Path for jupyter config
+export jupyter_config="${HOME}/.config/jupyter/jupyter_notebook_config.py"
 
 # nice themes: {af-magic, wezm+, fletcherm, jreese, typewritten, vercel}
 ZSH_THEME="af-magic"

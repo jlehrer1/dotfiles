@@ -28,7 +28,7 @@ alias scr="cd ${SCRIPTS}"
 # -- aliases for jupyter --
 alias jupyter="${HOME}/opt/miniconda3/bin/jupyter"
 alias jn="${HOME}/opt/miniconda3/bin/jupyter notebook"
-alias jnconfig="${EDITOR} ${HOME}/.jupyter/jupyter_notebook_config.py"
+alias jnconfig="${EDITOR} ${jupyter_config}"
 
 # convienence aliases -- makes workflow faster
 alias ip="ipython"

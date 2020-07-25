@@ -2,16 +2,16 @@
 
 # All custom things that need to be added to my path should go in this file
 # to edit it, run "epath"
-#for f in ${SCRIPTS}/*/; do export PATH="$f:$PATH"; done
+for f in ${SCRIPTS}/*/; do export PATH="$f:$PATH"; done
 
-#export PATH="\
-#${SCRIPTS}:\
-#${HOME}/Library/Python/3.8/bin:\
-#${HOME}/.local/bin:\
-#${HOME}/.local/lib/python3.7/site-packages:\
-#${GOPATH}/bin:\
-#${HOME}/.rbenv/bin:\
-#/usr/local/sbin:\
-#${HOME}/.gem/ruby/2.7.0/bin:\
-#${PATH}"
+export PATH="\
+${SCRIPTS}:\
+${HOME}/Library/Python/3.8/bin:\
+${HOME}/.local/bin:\
+${HOME}/.local/lib/python3.7/site-packages:\
+${GOPATH}/bin:\
+${HOME}/.rbenv/bin:\
+/usr/local/sbin:\
+${HOME}/.gem/ruby/2.7.0/bin:\
+${PATH}"
 
