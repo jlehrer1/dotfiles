@@ -8,6 +8,9 @@
 
 " A place for all of my neovim settings
 
+" Disables automatic comment continuation on newline
+set formatoptions-=cro
+
 " Remaps leader (\) to ,
 let mapleader=","
 
