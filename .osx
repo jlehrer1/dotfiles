@@ -71,6 +71,10 @@ chflags nohidden "${HOME}/Library"
 # Show the /Volumes folder
 sudo chflags nohidden /Volumes
 
+# Don't backup Desktop and Documents to cloud by default -- I use git
+defaults write com.apple.finder FXICloudDriveDesktop -bool false
+defaults write com.apple.finder FXICloudDriveDocuments -bool false
+
 ###############################################################################
 # Dock and Dashboard				                                          #
 ###############################################################################
