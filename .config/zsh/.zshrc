@@ -72,6 +72,3 @@ unset __conda_setup
 fpath+="${HOME}/opt/conda-zsh-completion"
 compinit
 
-# for iStats (ruby gem)
-eval "$(rbenv init -)"
-
