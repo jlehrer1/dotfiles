@@ -1,5 +1,5 @@
 # Dotfiles
-My configs, scripts, and functions. Commonly known as dotfiles!
+My configs, scripts, and functions for my MacOS setup.
 
 These are personalized to my use, but hopefully there are some bits and pieces somewhere that are useful to you. Try digging around in `.custom/aliases` and `.custom/scripts/`. 
 
