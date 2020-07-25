@@ -72,3 +72,4 @@ unset __conda_setup
 fpath+="${HOME}/opt/conda-zsh-completion"
 compinit
 
+eval "$(rbenv init -)"
