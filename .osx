@@ -3,7 +3,7 @@
 # My macOS preferences
 
 # Make sure we're running on a Mac
-if [[ "$OSTYPE" != "darwin"* ]]; then
+if [ "$OSTYPE" != "darwin"* ]; then
 	echo "Not on a Mac, exiting..."
 	exit 1
 fi
