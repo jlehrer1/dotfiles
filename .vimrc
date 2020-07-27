@@ -8,9 +8,6 @@
 
 " A place for all of my neovim settings
 
-" Disables automatic comment continuation on newline
-autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-
 " Remaps leader (\) to ,
 let mapleader=","
 
@@ -84,4 +81,5 @@ autocmd VimEnter *
 set background=dark
 set t_Co=256
 
-
+" Disables automatic comment continuation on newline
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
