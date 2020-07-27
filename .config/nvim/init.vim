@@ -9,7 +9,7 @@
 " A place for all of my neovim settings
 
 " Disables automatic comment continuation on newline
-set formatoptions-=cro
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " Remaps leader (\) to ,
 let mapleader=","
@@ -67,6 +67,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 Plug 'junegunn/goyo.vim'
 Plug 'preservim/nerdcommenter'
 Plug 'preservim/nerdtree'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
