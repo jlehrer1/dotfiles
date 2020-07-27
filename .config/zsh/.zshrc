@@ -23,7 +23,7 @@ export ALIASES="${DOTS}/aliases"
 export PROJECTS="${HOME}/Documents/Projects"
 
 # my default command line editor
-export EDITOR="nvim"
+export EDITOR="vim"
 
 # my default browser
 export SEARCH="Firefox" 

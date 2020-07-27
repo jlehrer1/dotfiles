@@ -8,6 +8,8 @@
 
 " A place for all of my neovim settings
 
+highlight Normal guibg=none guifg=none
+
 " Disables automatic comment continuation on newline
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
@@ -32,6 +34,9 @@ set smarttab
 "Show line numbers"
 set number
 
+"Highlights search matching 
+set hlsearch
+
 " Dont highlight parenthesis
 let g:loaded_matchparen=1
 
@@ -54,14 +59,14 @@ noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 
-" auto-install vim-plug if not installed
-if empty(glob('~/.config/nvim/autoload/plug.vim'))
-  silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  autocmd VimEnter * PlugInstall
-endif
+if empty(glob('~/.vim/autoload/plug.vim'))
+	  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+	      \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+	    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+	endif
 
 " Put list of plugins in between these two
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin('~/.vim/plugged')
 
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'junegunn/goyo.vim'
@@ -77,4 +82,3 @@ autocmd VimEnter *
   \|   PlugInstall --sync | q
   \| endif
 
-:au VimLeave * set guicursor=a:line-blinkon0
