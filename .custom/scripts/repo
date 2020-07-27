@@ -20,7 +20,7 @@ if ! git branch 2>/dev/null 1>&2 ; then
 fi
 
 if [[ $1 == '-m' ]]; then 
-	open -a "${SEARCH} "$base_url
+	open -a "${SEARCH}" "$base_url"
 	exit 0
 fi
 

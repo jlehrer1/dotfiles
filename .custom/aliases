@@ -12,8 +12,8 @@
 alias vim="${EDITOR}"
 
 #aliases for python -- be careful here!
-alias python="python3" 
-alias pip="pip3"
+#alias pip="pip3"
+alias python="python3"
 
 # -- aliases for pip --
 alias pi="pip install"
@@ -26,9 +26,10 @@ alias als="cd ${ALIASES}"
 alias scr="cd ${SCRIPTS}"
 
 # -- aliases for jupyter --
-alias jupyter="${HOME}/opt/miniconda3/bin/jupyter"
-alias jn="${HOME}/opt/miniconda3/bin/jupyter notebook --config=${jupyter_config}"
+# DON'T DO THIS. Jupyter will not point to correct virtual env's
+#alias jupyter="${HOME}/opt/miniconda3/bin/jupyter"
 alias jnconfig="${EDITOR} ${jupyter_config}"
+alias jn="jupyter-notebook --config=${jupyter_config}"
 
 # convienence aliases -- makes workflow faster
 alias ip="ipython"

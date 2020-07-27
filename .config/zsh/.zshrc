@@ -26,7 +26,7 @@ export PROJECTS="${HOME}/Documents/Projects"
 export EDITOR="nvim"
 
 # my default browser
-export SEARCH="Safari" 
+export SEARCH="Firefox" 
 
 # Path for go packages 
 export GOPATH="$HOME/go"
@@ -54,7 +54,10 @@ export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
 # for fixing Catalina error
 ZSH_DISABLE_COMPFIX=true
 
-# Conda setup
+eval "$(rbenv init -)"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/Users/julian/opt/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
@@ -68,8 +71,3 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-# for conda autocomplete
-fpath+="${HOME}/opt/conda-zsh-completion"
-compinit
-
-eval "$(rbenv init -)"
