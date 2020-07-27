@@ -8,9 +8,6 @@
 #                                                 	#
   # # # # # # # # # # # # # # # # # # # # # # # # # 
 
-# alias vim to my editor
-alias vim="${EDITOR}"
-
 # aliases for python
 # So far, it seems like aliasing python is no longer necessary as conda recognizes the correct version
 

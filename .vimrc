@@ -8,8 +8,6 @@
 
 " A place for all of my neovim settings
 
-highlight Normal guibg=none guifg=none
-
 " Disables automatic comment continuation on newline
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
@@ -79,6 +77,11 @@ call plug#end()
 " Automatically install missing plugins
 autocmd VimEnter *
   \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
-  \|   PlugInstall --sync | q
+  \|   PlugInstall --sync | q 
   \| endif
+
+" Fixes vim in tmux not rendering 256bit colors correctly
+set background=dark
+set t_Co=256
+
 

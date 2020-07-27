@@ -37,9 +37,6 @@ export jupyter_config="${HOME}/.config/jupyter/jupyter_notebook_config.py"
 # nice themes: {af-magic, wezm+, fletcherm, jreese, typewritten, vercel}
 ZSH_THEME="af-magic"
 
-# zsh plugins
-plugins=(tmux)
-
 source "${ZSH}/oh-my-zsh.sh"
 
 # source my custom path
