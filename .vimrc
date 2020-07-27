@@ -8,6 +8,17 @@
 
 " A place for all of my neovim settings
 
+" Ignore compiled files
+set wildignore=*.o,*~,*.pyc
+if has("win16") || has("win32")
+	    set wildignore+=.git\*,.hg\*,.svn\*
+	else
+		    set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store
+		endif
+
+" Adds tab completion to words like neovim :)
+set wildmenu
+
 " Remaps leader (\) to ,
 let mapleader=","
 
@@ -29,7 +40,7 @@ set smarttab
 "Show line numbers"
 set number
 
-"Highlights search matching 
+"Highlights search matching
 set hlsearch
 
 " Dont highlight parenthesis
@@ -74,7 +85,7 @@ call plug#end()
 " Automatically install missing plugins
 autocmd VimEnter *
   \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
-  \|   PlugInstall --sync | q 
+  \|   PlugInstall --sync | q
   \| endif
 
 " Fixes vim in tmux not rendering 256bit colors correctly
@@ -83,3 +94,6 @@ set t_Co=256
 
 " Disables automatic comment continuation on newline
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+" Fixes color changing to 16bit after leaving Goyo
+autocmd! User GoyoLeave silent! source $HOME/.vimrc
