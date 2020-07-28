@@ -34,8 +34,7 @@ export GOPATH="$HOME/go"
 # Path for jupyter config
 export jupyter_config="${HOME}/.config/jupyter/jupyter_notebook_config.py"
 
-# nice themes: {af-magic, wezm+, fletcherm, jreese, typewritten, vercel}
-ZSH_THEME="af-magic"
+export ZSH_THEME="af-magic"
 
 source "${ZSH}/oh-my-zsh.sh"
 
