@@ -75,6 +75,9 @@ sudo chflags nohidden /Volumes
 defaults write com.apple.finder FXICloudDriveDesktop -bool false
 defaults write com.apple.finder FXICloudDriveDocuments -bool false
 
+# Use stacks on Desktop by default 
+/usr/libexec/PlistBuddy -c "Set DesktopViewSettings:GroupBy Kind" ~/Library/Preferences/com.apple.finder.plist
+
 ###############################################################################
 # Dock and Dashboard				                                          #
 ###############################################################################

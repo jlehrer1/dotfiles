@@ -63,6 +63,7 @@ alias sl="ls"
 # -- aliases for system -- 
 alias ram="top -l 1 -s 0 | grep PhysMem"
 alias monitor='open -a "Activity Monitor"'
+alias temp="osx-cpu-temp"
 
 # -- aliases for git --
 alias g="git"
