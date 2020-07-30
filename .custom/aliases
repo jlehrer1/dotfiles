@@ -68,8 +68,9 @@ alias ga="git add"
 alias gaa="git add --all"
 alias gaf="git add --force"
 
-alias gc="git commit -v"
-alias gca="git commit -v --amend"
+alias gc="git commit"
+alias gca="git commit --amend"
+alias gcm="git commit --message"
 
 alias gcl="git clone --recurse-submodules"
 
@@ -101,6 +102,8 @@ alias grb3="git rebase -i HEAD~4"
 
 alias glg="git log --graph"
 alias grlg="git reflog"
+
+alias gl="git ls-files"
 
 alias gitignore="${EDITOR} .gitignore"
 
