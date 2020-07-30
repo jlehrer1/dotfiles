@@ -22,7 +22,7 @@ go/
 
 # hidden files / folders
 .ipynb_checkpoints
-.config
+.config/*
 .bash_history
 .bash_sessions
 .CFUserTextEncoding
@@ -68,3 +68,5 @@ Air-5.7.1
 .tldrc
 VirtualBox*
 .wget-hsts
+.tmux-session
+
