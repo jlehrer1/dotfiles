@@ -8,9 +8,6 @@
 #                                                 	#
   # # # # # # # # # # # # # # # # # # # # # # # # # 
 
-# aliases for python
-# So far, it seems like aliasing python is no longer necessary as conda recognizes the correct version
-
 # -- aliases for pip --
 alias pi="pip install"
 alias piup="pip install --upgrade"
@@ -21,8 +18,6 @@ alias zshenv="${EDITOR} ${HOME}/.zshenv"
 alias scr="cd ${SCRIPTS}"
 
 # -- aliases for jupyter --
-# DON'T DO THIS. Jupyter will not point to correct virtual env's
-#alias jupyter="${HOME}/opt/miniconda3/bin/jupyter"
 alias jnconfig="${EDITOR} ${jupyter_config}"
 alias jn="jupyter-notebook --config=${jupyter_config}"
 
@@ -64,6 +59,7 @@ alias sl="ls"
 alias ram="top -l 1 -s 0 | grep PhysMem"
 alias monitor='open -a "Activity Monitor"'
 alias temp="osx-cpu-temp"
+alias check="fan && osx-cpu-temp"
 
 # -- aliases for git --
 alias g="git"
