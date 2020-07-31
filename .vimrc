@@ -79,6 +79,8 @@ Plug 'junegunn/goyo.vim'
 Plug 'preservim/nerdcommenter'
 Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
@@ -97,3 +99,7 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " Fixes color changing to 16bit after leaving Goyo
 autocmd! User GoyoLeave silent! source $HOME/.vimrc
+
+" Vim powerline (airline) theme 
+let g:airline_theme='atomic'
+
