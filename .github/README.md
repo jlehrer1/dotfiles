@@ -6,6 +6,7 @@ These are personalized to my use, but hopefully there are some bits and pieces s
 ## I use:
 [Terminal.app](https://support.apple.com/guide/terminal/welcome/mac) as my terminal.  
 [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) to manage my zsh config.  
+[tmux](https://github.com/tmux/tmux) as my terminal multiplexer.  
 [yadm](https://github.com/TheLocehiliosan/yadm) to manage my dotfiles.  
 [vim](https://github.com/vim/vim) as my text editor (although I admit I still use VSCode for many things), and  
 [vim-plug](https://github.com/junegunn/vim-plug) to manage vim plugins.

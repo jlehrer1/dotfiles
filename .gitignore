@@ -44,7 +44,7 @@ go/
 .Trash
 .viminfo
 
-.vim/plugged
+.vim
 .vscode
 .zcompdump
 Air-5.7.1
@@ -69,4 +69,5 @@ Air-5.7.1
 VirtualBox*
 .wget-hsts
 .tmux-session
-
+tmux-client*
+*.swp

@@ -101,5 +101,5 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 autocmd! User GoyoLeave silent! source $HOME/.vimrc
 
 " Vim powerline (airline) theme 
-let g:airline_theme='atomic'
+let g:airline_theme='onedark'
 

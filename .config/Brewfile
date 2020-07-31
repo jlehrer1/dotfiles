@@ -19,4 +19,6 @@ brew "ncdu"
 brew "tldr"
 brew "reattach-to-user-namespace"
 brew "wget"
+
 cask "basictex"
+cask "bitbar"

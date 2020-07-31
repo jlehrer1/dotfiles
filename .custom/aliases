@@ -127,7 +127,6 @@ alias ypl="yadm pull"
 
 alias ylg="yadm log --graph"
 alias yreflog="yadm reflog"
-alias yconfig="${EDITOR} ${HOME}/.config/yadm/config"
 
 alias yrh="yadm reset --hard"
 alias yrs="yadm reset --soft"
@@ -143,6 +142,8 @@ alias yrb3="yadm rebase -i HEAD~3"
 alias yrb4="yadm rebase -i HEAD~4"
 
 alias ystrap="${EDITOR} ${HOME}/.config/yadm/bootstrap"
+alias yconfig="${EDITOR} ${HOME}/.config/yadm/config"
+alias yreadme="${EDITOR} ${HOME}/.github/README.md"
 
 # -- aliases for jekyll --
 alias jks="bundle exec jekyll serve -l -o"
