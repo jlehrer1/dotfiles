@@ -100,6 +100,11 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 " Fixes color changing to 16bit after leaving Goyo
 autocmd! User GoyoLeave silent! source $HOME/.vimrc
 
-" Vim powerline (airline) theme 
+" Vim powerline (airline) theme
 let g:airline_theme='onedark'
 
+" Remap ; --> :, makes entering command mode faster
+nnoremap ; :
+vnoremap ; :
+
+command Fb NERDTree
