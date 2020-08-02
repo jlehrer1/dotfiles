@@ -50,7 +50,6 @@ alias ca="conda activate"
 alias cc="conda create"
 alias cda="conda deactivate"
 alias condarc="${EDITOR} ${HOME}/.condarc"
-alias cel="conda env list"
 
 # aliases for common shell commands
 alias vimrc="${EDITOR} ${HOME}/.vimrc"
