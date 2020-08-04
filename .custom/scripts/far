@@ -1,0 +1,4 @@
+#!/bin/zsh 
+
+# Find and replace $1 with $2 on file $3, using regex
+sed -i '' "s/$1/$2/g" "$3"
