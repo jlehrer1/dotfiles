@@ -56,6 +56,7 @@ alias vimrc="${EDITOR} ${HOME}/.vimrc"
 alias vimrcsource="source ${HOME}/.vimrc"
 alias ls="exa"
 alias sl="ls"
+alias lsr="ls -R"
 
 # -- aliases for system -- 
 alias ram="top -l 1 -s 0 | grep PhysMem"
@@ -108,6 +109,10 @@ alias grlg="git reflog"
 
 alias gl="git ls-files"
 alias grv="git remote -v"
+
+alias grs="git restore"
+alias grss="git restore --staged"
+alias grssa="git restore --staged *"
 
 alias gitignore="${EDITOR} .gitignore"
 
