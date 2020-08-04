@@ -100,9 +100,9 @@ alias gs="git status -u"
 alias gpl="git pull"
 
 alias grb="git rebase -i"
-alias grb2="git rebase -i HEAD~2"
-alias grb3="git rebase -i HEAD~3"
-alias grb3="git rebase -i HEAD~4"
+alias grb2="git rebase -i HEAD~1"
+alias grb3="git rebase -i HEAD~2"
+alias grb4="git rebase -i HEAD~3"
 
 alias glg="git log --graph"
 alias grlg="git reflog"
