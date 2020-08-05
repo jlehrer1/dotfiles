@@ -13,7 +13,6 @@ alias pi="pip install"
 alias piup="pip install --upgrade"
 
 # -- aliases for zsh --
-alias zshsource="source ${ZDOTDIR}/.zshrc"
 alias zshenv="${EDITOR} ${HOME}/.zshenv"
 alias scr="cd ${SCRIPTS}"
 

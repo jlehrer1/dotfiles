@@ -1,0 +1,5 @@
+#!/bin/zsh 
+
+echo "Sourcing"
+source "${HOME}/.config/zsh/.zshrc"
+source "${ALIASES}"
