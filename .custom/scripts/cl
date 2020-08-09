@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Prints conda packages in a pretty way
+conda list | awk '{print $1}' | sed '1,3d'

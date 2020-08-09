@@ -46,7 +46,7 @@ alias brewfile="${EDITOR} ${HOME}/.config/Brewfile"
 
 # -- aliases for conda --
 alias ca="conda activate"
-alias cc="conda create"
+alias cc="conda create --name"
 alias cda="conda deactivate"
 alias condarc="${EDITOR} ${HOME}/.condarc"
 
