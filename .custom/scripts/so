@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+code $(find $PROJECTS -depth 1 | fzf)
