@@ -71,3 +71,6 @@ VirtualBox*
 .tmux-session
 tmux-client*
 *.swp
+DisplayVendorID-30ae/DisplayProductID-65fb 
+enable-HiDPI.sh 
+restore
