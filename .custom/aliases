@@ -30,6 +30,7 @@ alias rmrf="rm -rf"
 alias browser="open -a \"${SEARCH}\""
 alias te="open -a TextEdit"
 alias more="less"
+alias pwdc="pwd | pbcopy"
 
 # -- aliases for brew --
 alias bi="brew info"
