@@ -13,5 +13,6 @@ ${GOPATH}/bin:\
 ${HOME}/.rbenv/bin:\
 /usr/local/sbin:\
 ${HOME}/.gem/ruby/2.7.0/bin:\
+/usr/local/share/npm/bin:\
 ${PATH}"
 
