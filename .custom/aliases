@@ -44,6 +44,7 @@ alias down="cd ${HOME}/Downloads"
 alias dots="cd ${DOTS}"
 alias todo="${EDITOR} ${DOTS}/todo.txt"
 alias brewfile="${EDITOR} ${HOME}/.config/Brewfile"
+alias notes="cd ${HOME}/Documents/School"
 
 # -- aliases for conda --
 alias ca="conda activate"
