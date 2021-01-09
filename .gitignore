@@ -77,3 +77,8 @@ restore
 .leonflix
 .aws
 .PenTabletConfig
+images/*
+.docker
+.kube
+.mono
+.ncbi

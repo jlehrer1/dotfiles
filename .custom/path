@@ -5,6 +5,7 @@
 for f in ${SCRIPTS}/*/; do export PATH="$f:$PATH"; done
 
 export PATH="\
+${HOME}/Applications/sratoolkit/bin:\
 ${SCRIPTS}:\
 ${HOME}/Library/Python/3.8/bin:\
 ${HOME}/.local/bin:\
