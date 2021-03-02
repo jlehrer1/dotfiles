@@ -129,6 +129,14 @@ alias yca="yadm commit --amend"
 alias yp="yadm push"
 alias ypf="yadm push --force"
 
+
+# -- aliases for Kubernetes -- 
+alias kdp="kubectl describe pod"
+alias kdp="kubectl delete pod"
+alias kcf="kubectl create -f"
+
+
+
 alias yd="yadm diff"
 alias ydh="yadm diff HEAD"
 alias ypl="yadm pull"

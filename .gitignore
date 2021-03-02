@@ -81,4 +81,6 @@ images/*
 .docker
 .kube
 .mono
-.ncbi
+.ncbi*
+ncbi
+token.txt
