@@ -8,6 +8,8 @@
 #                                                 	#
   # # # # # # # # # # # # # # # # # # # # # # # # # 
 
+alias aliases="${EDITOR} ${DOTS}/aliases"
+
 # -- aliases for pip --
 alias pi="pip install"
 alias piup="pip install --upgrade"
@@ -129,14 +131,6 @@ alias yca="yadm commit --amend"
 alias yp="yadm push"
 alias ypf="yadm push --force"
 
-
-# -- aliases for Kubernetes -- 
-alias kdp="kubectl describe pod"
-alias kdp="kubectl delete pod"
-alias kcf="kubectl create -f"
-
-
-
 alias yd="yadm diff"
 alias ydh="yadm diff HEAD"
 alias ypl="yadm pull"
@@ -163,3 +157,15 @@ alias yreadme="${EDITOR} ${HOME}/.github/README.md"
 
 # -- aliases for jekyll --
 alias jks="bundle exec jekyll serve -l -o"
+
+# -- aliases for Braingeneers --
+alias awsb="aws --endpoint https://s3.nautilus.optiputer.net s3"
+
+
+# -- aliases for Kubernetes -- 
+alias k="kubectl"
+alias kdp="kubectl describe pod"
+alias kdep="kubectl delete pod"
+alias kcf="kubectl create -f"
+alias kl="kubectl logs"
+alias kde="kubectl delete"
