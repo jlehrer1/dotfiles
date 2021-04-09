@@ -84,3 +84,4 @@ images/*
 .ncbi*
 ncbi
 token.txt
+.anyconnect

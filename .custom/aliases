@@ -161,7 +161,6 @@ alias jks="bundle exec jekyll serve -l -o"
 # -- aliases for Braingeneers --
 alias awsb="aws --endpoint https://s3.nautilus.optiputer.net s3"
 
-
 # -- aliases for Kubernetes -- 
 alias k="kubectl"
 alias kdp="kubectl describe pod"
@@ -173,3 +172,4 @@ alias kgp="kubectl get pods"
 alias kdej="kubectl delete job"
 alias kgj="kubectl get jobs"
 alias kgp="kubectl get pods"
+alias kdj="kubectl delete job"
