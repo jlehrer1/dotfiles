@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+cd $(printf "%0.0s../" $(seq 1 $1));

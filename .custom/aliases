@@ -8,6 +8,18 @@
 #                                                 	#
   # # # # # # # # # # # # # # # # # # # # # # # # # 
 
+function cd_up() {
+	  cd $(printf "%0.0s../" $(seq 1 $1));
+}
+
+alias 'cd..'='cd_up'
+
+function pwd_up() {
+	r=$(cd $(printf "%0.0s../" $(seq 1 $1)) && pwd && cd -)
+	echo $r | head -n 1
+}
+alias 'pwd..'='pwd_up'
+
 alias aliases="${EDITOR} ${DOTS}/aliases"
 
 # -- aliases for pip --
@@ -159,7 +171,7 @@ alias yreadme="${EDITOR} ${HOME}/.github/README.md"
 alias jks="bundle exec jekyll serve -l -o"
 
 # -- aliases for Braingeneers --
-alias awsb="aws --endpoint https://s3.nautilus.optiputer.net s3"
+alias awsb="aws --endpoint https://s3-west.nrp-nautilus.io s3"
 
 # -- aliases for Kubernetes -- 
 alias k="kubectl"
@@ -173,3 +185,12 @@ alias kdej="kubectl delete job"
 alias kgj="kubectl get jobs"
 alias kgp="kubectl get pods"
 alias kdj="kubectl delete job"
+
+# -- aliases for Docker -- 
+alias dockerignore="${EDITOR} .dockerignore"
+alias dockerclean="docker rmi $(docker images -f dangling=true -q) -f"
+
+# -- aliases for external drives and storage -- 
+alias ext="cd ${EXT}"
+
+

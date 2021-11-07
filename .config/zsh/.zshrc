@@ -34,7 +34,11 @@ export GOPATH="$HOME/go"
 # Path for jupyter config
 export jupyter_config="${HOME}/.config/jupyter/jupyter_notebook_config.py"
 
+# My custom theme
 export ZSH_THEME="julians"
+
+# Path to my 500 gb external ssd
+export EXT="/Volumes/T7"
 
 source "${ZSH}/oh-my-zsh.sh"
 
