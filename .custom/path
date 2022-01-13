@@ -14,6 +14,10 @@ ${GOPATH}/bin:\
 ${HOME}/.rbenv/bin:\
 /usr/local/sbin:\
 ${HOME}/.gem/ruby/2.7.0/bin:\
+/opt/homebrew/opt/ruby/bin:\
 /usr/local/share/npm/bin:\
+/opt/homebrew/bin/brew:\
+/opt/homebrew/bin/rbenv:\
+${HOME}/.npm-global/bin:\
 ${PATH}"
 

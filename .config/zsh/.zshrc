@@ -54,20 +54,21 @@ export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
 # for fixing Catalina error
 ZSH_DISABLE_COMPFIX=true
 
-eval "$(rbenv init -)"
+eval "$(/opt/homebrew/bin/rbenv init -)"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/julian/opt/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/Users/julian/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/Users/julian/opt/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/julian/opt/miniconda3/etc/profile.d/conda.sh"
+    if [ -f "/Users/julian/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/julian/miniconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/Users/julian/opt/miniconda3/bin:$PATH"
+        export PATH="/Users/julian/miniconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+export PATH=/opt/homebrew/bin:$PATH

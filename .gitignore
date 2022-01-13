@@ -88,3 +88,7 @@ token.txt
 salama_data
 cameraC*
 manifest.json
+ray_results/*
+miniconda*
+.npm*
+.zshrc.pre*
