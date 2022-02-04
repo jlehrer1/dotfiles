@@ -1,0 +1,17 @@
+#
+# Usage: kfilterdel pattern_match
+#       Grep for all pods with "match-text" in the name and delete them. Prompts for acceptance.
+#
+
+#!/bin/zsh
+
+kubectl get pods | grep -E "$1"
+read -p "Delete the jobs associated with these pods? [y/n]: " -n 1 -r
+echo ""
+
+if [[ $REPLY =~ ^[Yy]$ ]]; then
+        kubectl get pods | grep -E "$1" | awk '{print $1}' | parallel kubectl describe pods | grep "job-name=" | awk -F= '{print $2}' | parallel kubectl delete jobs
+else
+        echo ""
+        echo "Aborted"
+fi
