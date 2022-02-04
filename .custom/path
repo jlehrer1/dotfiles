@@ -1,0 +1,24 @@
+#!/bin/zsh
+
+# All custom things that need to be added to my path should go in this file
+# to edit it, run "epath"
+for f in ${SCRIPTS}/*/; do export PATH="$f:$PATH"; done
+
+export PATH="\
+${HOME}/Applications/sratoolkit/bin:\
+${SCRIPTS}:\
+${HOME}/Library/Python/3.8/bin:\
+${HOME}/.local/bin:\
+${HOME}/.local/lib/python3.7/site-packages:\
+${GOPATH}/bin:\
+${HOME}/.rbenv/bin:\
+/usr/local/sbin:\
+${HOME}/.gem/ruby/2.7.0/bin:\
+/opt/homebrew/opt/ruby/bin:\
+/usr/local/share/npm/bin:\
+/opt/homebrew/bin/brew:\
+/opt/homebrew/bin/rbenv:\
+${HOME}/.npm-global/bin:\
+${PATH}"
+
+

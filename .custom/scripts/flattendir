@@ -1,4 +1,10 @@
 #!/bin/zsh 
 
-mv ${1}/*/**/*(.D) ${1}
+if [ $# -eq 0 ]
+  then
+    echo "No arguments supplied..."
+    exit 1
+fi
+
+mv ${1}/*/**/*(.D) ${1} && rmdir -r ${1}
 
